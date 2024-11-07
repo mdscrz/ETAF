@@ -1,0 +1,32 @@
+[INFO ] 2024-10-21 14:24:54.820 - =================================== START TEST ===================================
+[INFO ] 2024-10-21 14:24:54.832 - Test Case report initialize for VerifyAddedAdminRoleOnEE
+[INFO ] 2024-10-21 14:25:27.312 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-10-21 14:25:27.378 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-10-21 14:25:27.414 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-10-21 14:25:27.496 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-10-21 14:25:28.841 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-10-21 14:25:29.259 - PASSED - Step 6 - Admin Tab is visible.
+[INFO ] 2024-10-21 14:25:30.308 - PASSED - Step 7 - Admin Tab was clicked.
+[INFO ] 2024-10-21 14:25:30.888 - PASSED - Step 8 - addButton is displayed.
+[INFO ] 2024-10-21 14:25:31.367 - PASSED - Step 9 - addButton was clicked.
+[INFO ] 2024-10-21 14:25:31.818 - PASSED - Step 10 - Event dropdown was clicked.
+[INFO ] 2024-10-21 14:25:31.855 - PASSED - Step 11 - Event dropdown was clicked.
+[ERROR] 2024-10-21 14:25:44.403 - FAILED - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Admin']//parent::div"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a496ceb8c961ab7a3241c4b198da5f32, findElement {using=xpath, value=//span[text()='Admin']//parent::div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57339}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57339/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a496ceb8c961ab7a3241c4b198da5f32
+[INFO ] 2024-10-21 14:25:44.404 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Admin']//parent::div"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a496ceb8c961ab7a3241c4b198da5f32, findElement {using=xpath, value=//span[text()='Admin']//parent::div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57339}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57339/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a496ceb8c961ab7a3241c4b198da5f32
+[INFO ] 2024-10-21 14:25:44.404 - =================================== END TEST ===================================

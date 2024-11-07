@@ -1,0 +1,19 @@
+[INFO ] 2024-11-04 14:55:31.526 - =================================== START TEST ===================================
+[INFO ] 2024-11-04 14:55:31.535 - Test Case report initialize for SearchEEinDirectory
+[INFO ] 2024-11-04 14:56:04.947 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-11-04 14:56:05.014 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-11-04 14:56:05.050 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-11-04 14:56:05.100 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-11-04 14:56:06.191 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-11-04 14:56:06.578 - PASSED - Step 6 - My Info Tab is visible.
+[INFO ] 2024-11-04 14:56:07.651 - PASSED - Step 7 - My Info Tab was clicked.
+[INFO ] 2024-11-04 14:56:08.054 - PASSED - Step 8 - Employee full name is visible.
+[INFO ] 2024-11-04 14:56:11.098 - PASSED - Step 9 - Sai Ram
+[INFO ] 2024-11-04 14:56:11.124 - PASSED - Step 10 - Prudhvi
+[INFO ] 2024-11-04 14:56:11.151 - PASSED - Step 11 - Gummaluri
+[INFO ] 2024-11-04 14:56:11.187 - PASSED - Step 12 - tab_Directory is visible.
+[INFO ] 2024-11-04 14:56:11.627 - PASSED - Step 13 - tab_Directory was clicked.
+[INFO ] 2024-11-04 14:56:14.766 - PASSED - Step 14 - Search button is visible.
+[INFO ] 2024-11-04 14:56:14.800 - PASSED - Step 15 - Search button was clicked.
+[INFO ] 2024-11-04 14:56:17.839 - PASSED - Step 16 - Search employee recors is displayed.
+[INFO ] 2024-11-04 14:56:17.840 - =================================== END TEST ===================================

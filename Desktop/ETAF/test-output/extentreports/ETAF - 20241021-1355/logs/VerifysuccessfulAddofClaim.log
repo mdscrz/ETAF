@@ -1,0 +1,37 @@
+[INFO ] 2024-10-21 13:55:55.201 - =================================== START TEST ===================================
+[INFO ] 2024-10-21 13:55:55.208 - Test Case report initialize for VerifysuccessfulAddofClaim
+[INFO ] 2024-10-21 13:56:28.360 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-10-21 13:56:28.419 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-10-21 13:56:28.453 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-10-21 13:56:28.517 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-10-21 13:56:29.882 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-10-21 13:56:31.264 - PASSED - Step 6 - tab_Claim was clicked.
+[INFO ] 2024-10-21 13:56:32.208 - PASSED - Step 7 - Submit Claim button was clicked.
+[INFO ] 2024-10-21 13:56:32.610 - PASSED - Step 8 - Event dropdown is visible.
+[INFO ] 2024-10-21 13:56:32.653 - PASSED - Step 9 - Event dropdown was clicked.
+[INFO ] 2024-10-21 13:56:32.689 - PASSED - Step 10 - Listboxdropdown is visible.
+[INFO ] 2024-10-21 13:56:32.975 - PASSED - Step 11 - Listbox Event options is visible.
+[INFO ] 2024-10-21 13:56:33.007 - PASSED - Step 12 - Listbox Event options was clicked.
+[INFO ] 2024-10-21 13:56:33.035 - PASSED - Step 13 - Event dropdown was clicked.
+[INFO ] 2024-10-21 13:56:33.078 - PASSED - Step 14 - Currency dropdown was clicked.
+[INFO ] 2024-10-21 13:56:33.109 - PASSED - Step 15 - Listboxdropdown is visible.
+[INFO ] 2024-10-21 13:56:33.139 - PASSED - Step 16 - Listbox Currency options is visible.
+[INFO ] 2024-10-21 13:56:33.173 - PASSED - Step 17 - Listbox Currency options was clicked.
+[INFO ] 2024-10-21 13:56:33.209 - PASSED - Step 18 - Currency dropdown was clicked.
+[INFO ] 2024-10-21 13:56:33.267 - PASSED - Step 19 - Remarks Field description is populated with Remarks Description Test.
+[INFO ] 2024-10-21 13:56:33.303 - PASSED - Step 20 - button Save/Create was clicked.
+[INFO ] 2024-10-21 13:56:37.042 - PASSED - Step 21 - Submit claim header is displayed.
+[INFO ] 2024-10-21 13:56:37.537 - PASSED - Step 22 - addButton was clicked.
+[INFO ] 2024-10-21 13:56:38.110 - PASSED - Step 23 - Add expense tab is visible.
+[INFO ] 2024-10-21 13:56:38.171 - PASSED - Step 24 - Input Date today is populated with 2024-10-21.
+[INFO ] 2024-10-21 13:56:38.222 - PASSED - Step 25 - Input Amount is populated with 1000.
+[INFO ] 2024-10-21 13:56:38.263 - PASSED - Step 26 - Expense Type dropdown was clicked.
+[INFO ] 2024-10-21 13:56:38.292 - PASSED - Step 27 - Listbox Expense Type options is visible.
+[INFO ] 2024-10-21 13:56:38.324 - PASSED - Step 28 - Listbox Expense Type options was clicked.
+[INFO ] 2024-10-21 13:56:38.356 - PASSED - Step 29 - button Save/Create was clicked.
+[INFO ] 2024-10-21 13:56:38.376 - PASSED - Step 30 - Expense type added in claims is displayed.
+[INFO ] 2024-10-21 13:56:38.406 - PASSED - Step 31 - Submit button is visible.
+[INFO ] 2024-10-21 13:56:41.632 - PASSED - Step 32 - Submit button was clicked.
+[INFO ] 2024-10-21 13:56:42.100 - PASSED - Step 33 - My claims header was clicked.
+[INFO ] 2024-10-21 13:56:47.132 - PASSED - Step 34 - Submitted
+[INFO ] 2024-10-21 13:56:47.133 - =================================== END TEST ===================================

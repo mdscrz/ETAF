@@ -1,0 +1,32 @@
+[INFO ] 2024-11-07 13:58:49.942 - =================================== START TEST ===================================
+[INFO ] 2024-11-07 13:58:49.952 - Test Case report initialize for VerifyAddEEViaDataImport
+[INFO ] 2024-11-07 13:59:23.211 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-11-07 13:59:23.277 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-11-07 13:59:23.313 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-11-07 13:59:23.388 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-11-07 13:59:23.433 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-11-07 13:59:25.138 - PASSED - Step 6 - tab_PIM is visible.
+[INFO ] 2024-11-07 13:59:26.080 - PASSED - Step 7 - tab_PIM was clicked.
+[INFO ] 2024-11-07 13:59:26.544 - PASSED - Step 8 - Configuration tab is visible.
+[INFO ] 2024-11-07 13:59:26.589 - PASSED - Step 9 - Configuration tab was clicked.
+[INFO ] 2024-11-07 13:59:27.141 - PASSED - Step 10 - Configuration tab options is visible.
+[INFO ] 2024-11-07 13:59:27.551 - PASSED - Step 11 - Configuration tab options was clicked.
+[ERROR] 2024-11-07 13:59:30.434 - FAILED - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : \Desktop\ETAF\src\main\java\testData\importData_Test.csv
+  (Session info: chrome=130.0.6723.71)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b592e1cf9711683871fa2dc0e8df8d4d, sendKeysToElement {id=f.06829FA401613E0ABF2B2C0088765D79.d.018B1D97ADBDA6DF18AC3000477CC9C5.e.67, value=[Ljava.lang.CharSequence;@69fe8c75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.71, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65313}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65313/devtoo..., se:cdpVersion: 130.0.6723.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b592e1cf9711683871fa2dc0e8df8d4d)] -> xpath: //input[@type='file']]
+Session ID: b592e1cf9711683871fa2dc0e8df8d4d
+[INFO ] 2024-11-07 13:59:30.434 - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : \Desktop\ETAF\src\main\java\testData\importData_Test.csv
+  (Session info: chrome=130.0.6723.71)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b592e1cf9711683871fa2dc0e8df8d4d, sendKeysToElement {id=f.06829FA401613E0ABF2B2C0088765D79.d.018B1D97ADBDA6DF18AC3000477CC9C5.e.67, value=[Ljava.lang.CharSequence;@69fe8c75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.71, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65313}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65313/devtoo..., se:cdpVersion: 130.0.6723.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b592e1cf9711683871fa2dc0e8df8d4d)] -> xpath: //input[@type='file']]
+Session ID: b592e1cf9711683871fa2dc0e8df8d4d
+[INFO ] 2024-11-07 13:59:30.435 - =================================== END TEST ===================================

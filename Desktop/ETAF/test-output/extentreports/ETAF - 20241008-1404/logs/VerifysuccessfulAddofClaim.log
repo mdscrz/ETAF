@@ -1,0 +1,51 @@
+[INFO ] 2024-10-08 14:04:14.501 - =================================== START TEST ===================================
+[INFO ] 2024-10-08 14:04:14.521 - Test Case report initialize for VerifysuccessfulAddofClaim
+[INFO ] 2024-10-08 14:04:21.460 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-10-08 14:04:21.552 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-10-08 14:04:21.601 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-10-08 14:04:21.709 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-10-08 14:04:23.008 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-10-08 14:04:24.388 - PASSED - Step 6 - tab_Claim was clicked.
+[INFO ] 2024-10-08 14:04:25.323 - PASSED - Step 7 - Submit Claim button was clicked.
+[INFO ] 2024-10-08 14:04:25.779 - PASSED - Step 8 - Event dropdown is visible.
+[INFO ] 2024-10-08 14:04:25.846 - PASSED - Step 9 - Event dropdown was clicked.
+[INFO ] 2024-10-08 14:04:25.898 - PASSED - Step 10 - Listboxdropdown is visible.
+[INFO ] 2024-10-08 14:04:26.166 - PASSED - Step 11 - Listbox Event options is visible.
+[INFO ] 2024-10-08 14:04:26.262 - PASSED - Step 12 - Listbox Event options was clicked.
+[INFO ] 2024-10-08 14:04:26.328 - PASSED - Step 13 - Event dropdown was clicked.
+[INFO ] 2024-10-08 14:04:26.411 - PASSED - Step 14 - Currency dropdown was clicked.
+[INFO ] 2024-10-08 14:04:26.466 - PASSED - Step 15 - Listboxdropdown is visible.
+[INFO ] 2024-10-08 14:04:26.520 - PASSED - Step 16 - Listbox Currency options is visible.
+[INFO ] 2024-10-08 14:04:26.582 - PASSED - Step 17 - Listbox Currency options was clicked.
+[INFO ] 2024-10-08 14:04:26.643 - PASSED - Step 18 - Currency dropdown was clicked.
+[INFO ] 2024-10-08 14:04:26.773 - PASSED - Step 19 - Remarks Field description is populated with Remarks Description Test.
+[INFO ] 2024-10-08 14:04:26.831 - PASSED - Step 20 - button Save/Create was clicked.
+[INFO ] 2024-10-08 14:04:30.566 - PASSED - Step 21 - Submit claim header is displayed.
+[INFO ] 2024-10-08 14:04:30.984 - PASSED - Step 22 - addButton was clicked.
+[INFO ] 2024-10-08 14:04:31.599 - PASSED - Step 23 - Add expense tab is visible.
+[INFO ] 2024-10-08 14:04:31.709 - PASSED - Step 24 - Input Date today is populated with 2024-10-08.
+[INFO ] 2024-10-08 14:04:31.785 - PASSED - Step 25 - Input Amount is populated with 1000.
+[INFO ] 2024-10-08 14:04:31.853 - PASSED - Step 26 - Expense Type dropdown was clicked.
+[INFO ] 2024-10-08 14:04:31.899 - PASSED - Step 27 - Listbox Expense Type options is visible.
+[INFO ] 2024-10-08 14:04:31.955 - PASSED - Step 28 - Listbox Expense Type options was clicked.
+[INFO ] 2024-10-08 14:04:32.003 - PASSED - Step 29 - button Save/Create was clicked.
+[INFO ] 2024-10-08 14:04:32.036 - PASSED - Step 30 - Expense type added in claims is displayed.
+[ERROR] 2024-10-08 14:04:35.924 - FAILED - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="oxd-topbar-body-nav-tab-item" href="#">...</a> is not clickable at point (480, 91). Other element would receive the click: <div data-v-bcfca726="" class="oxd-dialog-container-default--inner">...</div>
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [810b95a816afd58d9e2c59791fc932e5, clickElement {id=f.A215EFBD89BF909E61E29433F82F0D53.d.1870CCA16E34116DE3BB2954FC395623.e.121}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50451}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50451/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (810b95a816afd58d9e2c59791fc932e5)] -> xpath: //a[text()='Submit Claim']]
+Session ID: 810b95a816afd58d9e2c59791fc932e5
+[INFO ] 2024-10-08 14:04:35.925 - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="oxd-topbar-body-nav-tab-item" href="#">...</a> is not clickable at point (480, 91). Other element would receive the click: <div data-v-bcfca726="" class="oxd-dialog-container-default--inner">...</div>
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [810b95a816afd58d9e2c59791fc932e5, clickElement {id=f.A215EFBD89BF909E61E29433F82F0D53.d.1870CCA16E34116DE3BB2954FC395623.e.121}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50451}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50451/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (810b95a816afd58d9e2c59791fc932e5)] -> xpath: //a[text()='Submit Claim']]
+Session ID: 810b95a816afd58d9e2c59791fc932e5
+[INFO ] 2024-10-08 14:04:35.926 - =================================== END TEST ===================================

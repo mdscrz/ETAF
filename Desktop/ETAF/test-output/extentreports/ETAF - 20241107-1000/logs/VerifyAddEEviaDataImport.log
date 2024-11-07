@@ -1,0 +1,5 @@
+[INFO ] 2024-11-07 10:00:06.708 - =================================== START TEST ===================================
+[INFO ] 2024-11-07 10:00:06.724 - Test Case report initialize for VerifyAddEEviaDataImport
+[ERROR] 2024-11-07 10:00:41.328 - FAILED - java.lang.NoClassDefFoundError: org/apache/commons/io/output/UnsynchronizedByteArrayOutputStream
+[INFO ] 2024-11-07 10:00:41.330 - java.lang.NoClassDefFoundError: org/apache/commons/io/output/UnsynchronizedByteArrayOutputStream
+[INFO ] 2024-11-07 10:00:41.331 - =================================== END TEST ===================================

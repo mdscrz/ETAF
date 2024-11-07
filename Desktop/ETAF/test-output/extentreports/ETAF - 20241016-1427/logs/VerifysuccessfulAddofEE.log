@@ -1,0 +1,26 @@
+[INFO ] 2024-10-16 14:27:44.021 - =================================== START TEST ===================================
+[INFO ] 2024-10-16 14:27:44.035 - Test Case report initialize for VerifysuccessfulAddofEE
+[INFO ] 2024-10-16 14:28:17.965 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-10-16 14:28:18.020 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-10-16 14:28:18.049 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-10-16 14:28:18.112 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-10-16 14:28:19.428 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-10-16 14:28:20.785 - PASSED - Step 6 - tab_PIM was clicked.
+[INFO ] 2024-10-16 14:28:21.408 - PASSED - Step 7 - addButton is visible.
+[INFO ] 2024-10-16 14:28:22.039 - PASSED - Step 8 - addButton was clicked.
+[INFO ] 2024-10-16 14:28:22.425 - PASSED - Step 9 - input_firstName is visible.
+[INFO ] 2024-10-16 14:28:22.596 - PASSED - Step 10 - input_firstName is populated with Bridgett.
+[INFO ] 2024-10-16 14:28:22.656 - PASSED - Step 11 - input_middleName is populated with Garcia.
+[INFO ] 2024-10-16 14:28:22.712 - PASSED - Step 12 - input_LastName is populated with Friesen.
+[INFO ] 2024-10-16 14:28:22.834 - PASSED - Step 13 - input employee id was clicked.
+[INFO ] 2024-10-16 14:28:22.851 - PASSED - Step 14 - input employee id for select all action is successful.
+[INFO ] 2024-10-16 14:28:22.894 - PASSED - Step 15 - input employee id is populated with 25969.
+[INFO ] 2024-10-16 14:28:22.941 - PASSED - Step 16 - Submit button was clicked.
+[INFO ] 2024-10-16 14:28:33.001 - PASSED - Step 17 - Employee List button is visible.
+[INFO ] 2024-10-16 14:28:33.421 - PASSED - Step 18 - Employee List button was clicked.
+[INFO ] 2024-10-16 14:28:33.814 - PASSED - Step 19 - Employee ID value is populated with 25969.
+[INFO ] 2024-10-16 14:28:33.849 - PASSED - Step 20 - Submit button was clicked.
+[INFO ] 2024-10-16 14:28:35.888 - PASSED - Step 21 - 25969
+[ERROR] 2024-10-16 14:28:38.417 - FAILED - java.lang.AssertionError: expected [25969] but found [25969]
+[INFO ] 2024-10-16 14:28:38.417 - java.lang.AssertionError: expected [25969] but found [25969]
+[INFO ] 2024-10-16 14:28:38.417 - =================================== END TEST ===================================

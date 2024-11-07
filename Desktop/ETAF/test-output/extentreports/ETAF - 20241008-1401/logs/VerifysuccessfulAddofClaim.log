@@ -1,0 +1,44 @@
+[INFO ] 2024-10-08 14:01:24.773 - =================================== START TEST ===================================
+[INFO ] 2024-10-08 14:01:24.787 - Test Case report initialize for VerifysuccessfulAddofClaim
+[INFO ] 2024-10-08 14:01:32.079 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-10-08 14:01:32.160 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-10-08 14:01:32.206 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-10-08 14:01:32.312 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-10-08 14:01:33.574 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-10-08 14:01:34.994 - PASSED - Step 6 - tab_Claim was clicked.
+[INFO ] 2024-10-08 14:01:35.975 - PASSED - Step 7 - Submit Claim button was clicked.
+[INFO ] 2024-10-08 14:01:36.420 - PASSED - Step 8 - Event dropdown is visible.
+[INFO ] 2024-10-08 14:01:36.477 - PASSED - Step 9 - Event dropdown was clicked.
+[INFO ] 2024-10-08 14:01:36.530 - PASSED - Step 10 - Listboxdropdown is visible.
+[INFO ] 2024-10-08 14:01:36.810 - PASSED - Step 11 - Listbox Event options is visible.
+[INFO ] 2024-10-08 14:01:36.904 - PASSED - Step 12 - Listbox Event options was clicked.
+[INFO ] 2024-10-08 14:01:36.952 - PASSED - Step 13 - Event dropdown was clicked.
+[INFO ] 2024-10-08 14:01:37.035 - PASSED - Step 14 - Currency dropdown was clicked.
+[INFO ] 2024-10-08 14:01:37.098 - PASSED - Step 15 - Listboxdropdown is visible.
+[INFO ] 2024-10-08 14:01:37.149 - PASSED - Step 16 - Listbox Currency options is visible.
+[INFO ] 2024-10-08 14:01:37.210 - PASSED - Step 17 - Listbox Currency options was clicked.
+[INFO ] 2024-10-08 14:01:37.264 - PASSED - Step 18 - Currency dropdown was clicked.
+[INFO ] 2024-10-08 14:01:37.359 - PASSED - Step 19 - Remarks Field description is populated with Remarks Description Test.
+[INFO ] 2024-10-08 14:01:37.414 - PASSED - Step 20 - button Save/Create was clicked.
+[INFO ] 2024-10-08 14:01:41.113 - PASSED - Step 21 - Submit claim header is displayed.
+[INFO ] 2024-10-08 14:01:41.582 - PASSED - Step 22 - addButton was clicked.
+[INFO ] 2024-10-08 14:01:42.179 - PASSED - Step 23 - Add expense tab is visible.
+[ERROR] 2024-10-08 14:01:54.987 - FAILED - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='yyyy-mm-dd']"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f37d1c2830338657d73519bd751cf0ab, findElement {using=xpath, value=//input[@placeholder='yyyy-mm-dd']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50070}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50070/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f37d1c2830338657d73519bd751cf0ab
+[INFO ] 2024-10-08 14:01:54.988 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='yyyy-mm-dd']"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f37d1c2830338657d73519bd751cf0ab, findElement {using=xpath, value=//input[@placeholder='yyyy-mm-dd']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50070}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50070/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f37d1c2830338657d73519bd751cf0ab
+[INFO ] 2024-10-08 14:01:54.988 - =================================== END TEST ===================================

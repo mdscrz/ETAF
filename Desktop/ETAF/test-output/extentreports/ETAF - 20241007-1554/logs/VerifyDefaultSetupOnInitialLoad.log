@@ -1,0 +1,14 @@
+[INFO ] 2024-10-07 15:54:48.147 - =================================== START TEST ===================================
+[INFO ] 2024-10-07 15:54:48.168 - Test Case report initialize for VerifyDefaultSetupOnInitialLoad
+[INFO ] 2024-10-07 15:54:54.360 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-10-07 15:54:54.422 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-10-07 15:54:54.451 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-10-07 15:54:54.513 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-10-07 15:54:55.791 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-10-07 15:54:57.039 - PASSED - Step 6 - tab_PIM was clicked.
+[INFO ] 2024-10-07 15:54:57.922 - PASSED - Step 7 - Submit Claim button was clicked.
+[INFO ] 2024-10-07 15:54:58.296 - PASSED - Step 8 - Event dropdown is visible.
+[INFO ] 2024-10-07 15:54:58.337 - PASSED - Step 9 - Event dropdown was clicked.
+[ERROR] 2024-10-07 15:55:00.815 - FAILED - java.lang.ExceptionInInitializerError
+[INFO ] 2024-10-07 15:55:00.816 - java.lang.ExceptionInInitializerError
+[INFO ] 2024-10-07 15:55:00.816 - =================================== END TEST ===================================

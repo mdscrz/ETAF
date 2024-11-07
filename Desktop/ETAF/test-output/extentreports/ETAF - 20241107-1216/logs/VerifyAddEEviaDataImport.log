@@ -1,0 +1,32 @@
+[INFO ] 2024-11-07 12:16:22.331 - =================================== START TEST ===================================
+[INFO ] 2024-11-07 12:16:22.342 - Test Case report initialize for VerifyAddEEviaDataImport
+[INFO ] 2024-11-07 12:16:55.491 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-11-07 12:16:55.548 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-11-07 12:16:55.584 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-11-07 12:16:55.644 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-11-07 12:16:56.956 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-11-07 12:16:57.349 - PASSED - Step 6 - tab_PIM is visible.
+[INFO ] 2024-11-07 12:16:58.284 - PASSED - Step 7 - tab_PIM was clicked.
+[INFO ] 2024-11-07 12:16:58.745 - PASSED - Step 8 - Configuration tab is visible.
+[INFO ] 2024-11-07 12:16:58.788 - PASSED - Step 9 - Configuration tab was clicked.
+[INFO ] 2024-11-07 12:16:59.352 - PASSED - Step 10 - Configuration tab options is visible.
+[INFO ] 2024-11-07 12:16:59.790 - PASSED - Step 11 - Configuration tab options was clicked.
+[ERROR] 2024-11-07 12:17:32.799 - FAILED - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='&Open']"}
+  (Session info: chrome=130.0.6723.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d49fbdc5ea50b2b94e2999228de4ed7d, findElement {using=xpath, value=//button[text()='&Open']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.71, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59459}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59459/devtoo..., se:cdpVersion: 130.0.6723.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d49fbdc5ea50b2b94e2999228de4ed7d
+[INFO ] 2024-11-07 12:17:32.799 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='&Open']"}
+  (Session info: chrome=130.0.6723.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d49fbdc5ea50b2b94e2999228de4ed7d, findElement {using=xpath, value=//button[text()='&Open']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.71, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59459}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59459/devtoo..., se:cdpVersion: 130.0.6723.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d49fbdc5ea50b2b94e2999228de4ed7d
+[INFO ] 2024-11-07 12:17:32.800 - =================================== END TEST ===================================

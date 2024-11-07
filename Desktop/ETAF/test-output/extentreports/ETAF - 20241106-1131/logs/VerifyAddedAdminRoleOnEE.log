@@ -1,0 +1,36 @@
+[INFO ] 2024-11-06 11:31:43.142 - =================================== START TEST ===================================
+[INFO ] 2024-11-06 11:31:43.151 - Test Case report initialize for VerifyAddedAdminRoleOnEE
+[INFO ] 2024-11-06 11:32:16.101 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-11-06 11:32:16.164 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-11-06 11:32:16.197 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-11-06 11:32:16.274 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-11-06 11:32:16.335 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-11-06 11:32:18.088 - PASSED - Step 6 - My Info Tab is visible.
+[INFO ] 2024-11-06 11:32:19.136 - PASSED - Step 7 - My Info Tab was clicked.
+[INFO ] 2024-11-06 11:32:19.570 - PASSED - Step 8 - Employee full name is visible.
+[INFO ] 2024-11-06 11:32:22.644 - PASSED - Step 9 - joaquin
+[INFO ] 2024-11-06 11:32:22.694 - PASSED - Step 10 - akhil
+[INFO ] 2024-11-06 11:32:22.733 - PASSED - Step 11 - user
+[INFO ] 2024-11-06 11:32:22.798 - PASSED - Step 12 - Admin Tab is visible.
+[INFO ] 2024-11-06 11:32:23.595 - PASSED - Step 13 - Admin Tab was clicked.
+[INFO ] 2024-11-06 11:32:24.004 - PASSED - Step 14 - addButton is displayed.
+[INFO ] 2024-11-06 11:32:24.512 - PASSED - Step 15 - addButton was clicked.
+[INFO ] 2024-11-06 11:32:24.886 - PASSED - Step 16 - User role dropdown is visible.
+[INFO ] 2024-11-06 11:32:24.979 - PASSED - Step 17 - User role dropdown was clicked.
+[INFO ] 2024-11-06 11:32:25.046 - PASSED - Step 18 - Listbox user role options is visible.
+[INFO ] 2024-11-06 11:32:25.103 - PASSED - Step 19 - Listbox user role options was clicked.
+[INFO ] 2024-11-06 11:32:25.149 - PASSED - Step 20 - Status dropdown was clicked.
+[INFO ] 2024-11-06 11:32:25.225 - PASSED - Step 21 - Listbox status options is visible.
+[INFO ] 2024-11-06 11:32:25.281 - PASSED - Step 22 - Listbox status options was clicked.
+[INFO ] 2024-11-06 11:32:25.343 - PASSED - Step 23 - Input Employee fullname of existing employee was clicked.
+[INFO ] 2024-11-06 11:32:29.825 - PASSED - Step 24 - Username field was clicked.
+[INFO ] 2024-11-06 11:32:30.064 - PASSED - Step 25 - Username field is populated with shannon.yost.
+[INFO ] 2024-11-06 11:32:30.122 - PASSED - Step 26 - confirm password was clicked.
+[INFO ] 2024-11-06 11:32:30.214 - PASSED - Step 27 - password is populated with admin123.
+[INFO ] 2024-11-06 11:32:30.321 - PASSED - Step 28 - confirm password is populated with admin123.
+[INFO ] 2024-11-06 11:32:30.410 - PASSED - Step 29 - button Save/Create was clicked.
+[INFO ] 2024-11-06 11:32:35.704 - PASSED - Step 30 - Assert assigned Role for the existing EE is visible.
+[INFO ] 2024-11-06 11:32:40.779 - PASSED - Step 31 - Admin
+[ERROR] 2024-11-06 11:32:43.988 - FAILED - java.lang.AssertionError: Text does not contain expected value! expected [null] but found [joaquin]
+[INFO ] 2024-11-06 11:32:43.990 - java.lang.AssertionError: Text does not contain expected value! expected [null] but found [joaquin]
+[INFO ] 2024-11-06 11:32:43.990 - =================================== END TEST ===================================

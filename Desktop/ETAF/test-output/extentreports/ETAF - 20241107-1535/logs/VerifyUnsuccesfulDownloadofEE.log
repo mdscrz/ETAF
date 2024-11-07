@@ -1,0 +1,40 @@
+[INFO ] 2024-11-07 15:35:49.025 - =================================== START TEST ===================================
+[INFO ] 2024-11-07 15:35:49.039 - Test Case report initialize for VerifyUnsuccesfulDownloadofEE
+[INFO ] 2024-11-07 15:36:28.902 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-11-07 15:36:29.020 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-11-07 15:36:29.083 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-11-07 15:36:29.276 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-11-07 15:36:40.619 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-11-07 15:36:42.062 - PASSED - Step 6 - My Info Tab is visible.
+[INFO ] 2024-11-07 15:36:46.114 - PASSED - Step 7 - My Info Tab was clicked.
+[INFO ] 2024-11-07 15:36:47.288 - PASSED - Step 8 - Employee full name is visible.
+[INFO ] 2024-11-07 15:36:47.352 - PASSED - Step 9 - 
+[INFO ] 2024-11-07 15:36:47.442 - PASSED - Step 10 - tab_Maintenance is visible.
+[INFO ] 2024-11-07 15:36:49.631 - PASSED - Step 11 - tab_Maintenance was clicked.
+[INFO ] 2024-11-07 15:36:50.086 - PASSED - Step 12 - password is visible.
+[INFO ] 2024-11-07 15:36:50.172 - PASSED - Step 13 - password is populated with admin123.
+[INFO ] 2024-11-07 15:36:50.256 - PASSED - Step 14 - Submit button is visible.
+[INFO ] 2024-11-07 15:36:51.828 - PASSED - Step 15 - Submit button was clicked.
+[INFO ] 2024-11-07 15:36:54.907 - PASSED - Step 16 - Header Access Records is visible.
+[INFO ] 2024-11-07 15:36:55.445 - PASSED - Step 17 - Header Access Records was clicked.
+[INFO ] 2024-11-07 15:36:56.095 - PASSED - Step 18 - Input for Download Personal Data is visible.
+[INFO ] 2024-11-07 15:36:56.458 - PASSED - Step 19 - Submit button was clicked.
+[ERROR] 2024-11-07 15:37:12.600 - FAILED - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//button[contains(@class,'secondary')])[2]"}
+  (Session info: chrome=130.0.6723.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8f488cf94ea81b8b5221b511d6db8745, findElement {using=xpath, value=(//button[contains(@class,'secondary')])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.71, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57030}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57030/devtoo..., se:cdpVersion: 130.0.6723.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f488cf94ea81b8b5221b511d6db8745
+[INFO ] 2024-11-07 15:37:12.602 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//button[contains(@class,'secondary')])[2]"}
+  (Session info: chrome=130.0.6723.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8f488cf94ea81b8b5221b511d6db8745, findElement {using=xpath, value=(//button[contains(@class,'secondary')])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.71, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57030}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57030/devtoo..., se:cdpVersion: 130.0.6723.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f488cf94ea81b8b5221b511d6db8745
+[INFO ] 2024-11-07 15:37:12.603 - =================================== END TEST ===================================

@@ -1,0 +1,38 @@
+[INFO ] 2024-10-18 12:23:46.502 - =================================== START TEST ===================================
+[INFO ] 2024-10-18 12:23:46.509 - Test Case report initialize for VerifysuccessfulAddofClaim
+[INFO ] 2024-10-18 12:24:21.038 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-10-18 12:24:21.205 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-10-18 12:24:21.258 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-10-18 12:24:21.325 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-10-18 12:24:22.481 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-10-18 12:24:23.857 - PASSED - Step 6 - tab_Claim was clicked.
+[INFO ] 2024-10-18 12:24:24.884 - PASSED - Step 7 - Submit Claim button was clicked.
+[INFO ] 2024-10-18 12:24:25.287 - PASSED - Step 8 - Event dropdown is visible.
+[INFO ] 2024-10-18 12:24:25.345 - PASSED - Step 9 - Event dropdown was clicked.
+[INFO ] 2024-10-18 12:24:25.390 - PASSED - Step 10 - Listboxdropdown is visible.
+[INFO ] 2024-10-18 12:24:25.638 - PASSED - Step 11 - Listbox Event options is visible.
+[INFO ] 2024-10-18 12:24:25.673 - PASSED - Step 12 - Listbox Event options was clicked.
+[INFO ] 2024-10-18 12:24:25.708 - PASSED - Step 13 - Event dropdown was clicked.
+[INFO ] 2024-10-18 12:24:25.774 - PASSED - Step 14 - Currency dropdown was clicked.
+[INFO ] 2024-10-18 12:24:25.813 - PASSED - Step 15 - Listboxdropdown is visible.
+[INFO ] 2024-10-18 12:24:25.854 - PASSED - Step 16 - Listbox Currency options is visible.
+[INFO ] 2024-10-18 12:24:25.906 - PASSED - Step 17 - Listbox Currency options was clicked.
+[INFO ] 2024-10-18 12:24:25.964 - PASSED - Step 18 - Currency dropdown was clicked.
+[INFO ] 2024-10-18 12:24:26.058 - PASSED - Step 19 - Remarks Field description is populated with Remarks Description Test.
+[INFO ] 2024-10-18 12:24:26.111 - PASSED - Step 20 - button Save/Create was clicked.
+[INFO ] 2024-10-18 12:24:29.730 - PASSED - Step 21 - Submit claim header is displayed.
+[INFO ] 2024-10-18 12:24:30.162 - PASSED - Step 22 - addButton was clicked.
+[INFO ] 2024-10-18 12:24:30.782 - PASSED - Step 23 - Add expense tab is visible.
+[INFO ] 2024-10-18 12:24:30.943 - PASSED - Step 24 - Input Date today is populated with 2024-10-18.
+[INFO ] 2024-10-18 12:24:31.055 - PASSED - Step 25 - Input Amount is populated with 1000.
+[INFO ] 2024-10-18 12:24:31.107 - PASSED - Step 26 - Expense Type dropdown was clicked.
+[INFO ] 2024-10-18 12:24:31.150 - PASSED - Step 27 - Listbox Expense Type options is visible.
+[INFO ] 2024-10-18 12:24:31.189 - PASSED - Step 28 - Listbox Expense Type options was clicked.
+[INFO ] 2024-10-18 12:24:31.231 - PASSED - Step 29 - button Save/Create was clicked.
+[INFO ] 2024-10-18 12:24:31.275 - PASSED - Step 30 - Expense type added in claims is displayed.
+[INFO ] 2024-10-18 12:24:31.333 - PASSED - Step 31 - Submit button is visible.
+[INFO ] 2024-10-18 12:24:34.611 - PASSED - Step 32 - Submit button was clicked.
+[INFO ] 2024-10-18 12:24:34.647 - PASSED - Step 33 - 
+[ERROR] 2024-10-18 12:24:37.272 - FAILED - java.lang.AssertionError: Text does not contain expected value! expected [Submitted] but found []
+[INFO ] 2024-10-18 12:24:37.273 - java.lang.AssertionError: Text does not contain expected value! expected [Submitted] but found []
+[INFO ] 2024-10-18 12:24:37.273 - =================================== END TEST ===================================

@@ -1,0 +1,40 @@
+[INFO ] 2024-11-07 15:23:53.930 - =================================== START TEST ===================================
+[INFO ] 2024-11-07 15:23:53.947 - Test Case report initialize for VerifyUnsuccesfulDownloadofEE
+[INFO ] 2024-11-07 15:24:27.122 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-11-07 15:24:27.250 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-11-07 15:24:27.339 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-11-07 15:24:27.509 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-11-07 15:24:28.763 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-11-07 15:24:29.287 - PASSED - Step 6 - tab_Maintenance is visible.
+[INFO ] 2024-11-07 15:24:30.423 - PASSED - Step 7 - tab_Maintenance was clicked.
+[INFO ] 2024-11-07 15:24:30.867 - PASSED - Step 8 - password is visible.
+[INFO ] 2024-11-07 15:24:30.944 - PASSED - Step 9 - password is populated with admin123.
+[INFO ] 2024-11-07 15:24:31.018 - PASSED - Step 10 - Submit button is visible.
+[INFO ] 2024-11-07 15:24:32.198 - PASSED - Step 11 - Submit button was clicked.
+[INFO ] 2024-11-07 15:24:35.277 - PASSED - Step 12 - Header Access Records is visible.
+[INFO ] 2024-11-07 15:24:35.794 - PASSED - Step 13 - Header Access Records was clicked.
+[INFO ] 2024-11-07 15:24:36.241 - PASSED - Step 14 - Input for Download Personal Data is visible.
+[INFO ] 2024-11-07 15:24:36.302 - PASSED - Step 15 - Submit button was clicked.
+[ERROR] 2024-11-07 15:24:50.420 - Report Screenshot Error Exception: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5393be6032d6e5046c28f5a99ead7f9f, executeScript {script=return Math.max(document.body.scrollHeight, document.body.offsetHeight,
+    document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight);, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.71, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56231}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56231/devtoo..., se:cdpVersion: 130.0.6723.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5393be6032d6e5046c28f5a99ead7f9f
+[ERROR] 2024-11-07 15:24:50.421 - FAILED - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5393be6032d6e5046c28f5a99ead7f9f, findElement {using=xpath, value=(//button[contains(@class,'secondary')])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.71, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56231}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56231/devtoo..., se:cdpVersion: 130.0.6723.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5393be6032d6e5046c28f5a99ead7f9f
+[INFO ] 2024-11-07 15:24:50.423 - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5393be6032d6e5046c28f5a99ead7f9f, findElement {using=xpath, value=(//button[contains(@class,'secondary')])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.71, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56231}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56231/devtoo..., se:cdpVersion: 130.0.6723.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5393be6032d6e5046c28f5a99ead7f9f
+[INFO ] 2024-11-07 15:24:50.424 - =================================== END TEST ===================================

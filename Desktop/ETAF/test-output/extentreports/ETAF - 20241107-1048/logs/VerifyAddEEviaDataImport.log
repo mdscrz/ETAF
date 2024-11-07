@@ -1,0 +1,15 @@
+[INFO ] 2024-11-07 10:48:34.249 - =================================== START TEST ===================================
+[INFO ] 2024-11-07 10:48:34.256 - Test Case report initialize for VerifyAddEEviaDataImport
+[INFO ] 2024-11-07 10:49:08.234 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-11-07 10:49:08.297 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-11-07 10:49:08.331 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-11-07 10:49:08.393 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-11-07 10:49:08.441 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-11-07 10:49:10.096 - PASSED - Step 6 - tab_PIM is visible.
+[INFO ] 2024-11-07 10:49:11.064 - PASSED - Step 7 - tab_PIM was clicked.
+[INFO ] 2024-11-07 10:49:11.635 - PASSED - Step 8 - Configuration tab is visible.
+[INFO ] 2024-11-07 10:49:11.675 - PASSED - Step 9 - Configuration tab was clicked.
+[INFO ] 2024-11-07 10:49:12.227 - PASSED - Step 10 - Configuration tab options is visible.
+[INFO ] 2024-11-07 10:49:12.647 - PASSED - Step 11 - Configuration tab options was clicked.
+[INFO ] 2024-11-07 10:49:13.034 - PASSED - Step 12 - Download link is visible.
+[INFO ] 2024-11-07 10:49:13.036 - =================================== END TEST ===================================

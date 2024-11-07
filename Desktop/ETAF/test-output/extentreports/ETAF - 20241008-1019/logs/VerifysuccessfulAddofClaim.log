@@ -1,0 +1,22 @@
+[INFO ] 2024-10-08 10:19:08.400 - =================================== START TEST ===================================
+[INFO ] 2024-10-08 10:19:08.407 - Test Case report initialize for VerifysuccessfulAddofClaim
+[INFO ] 2024-10-08 10:19:32.935 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-10-08 10:19:33.038 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-10-08 10:19:33.083 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-10-08 10:19:33.159 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-10-08 10:19:34.322 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-10-08 10:19:35.973 - PASSED - Step 6 - tab_Claim was clicked.
+[INFO ] 2024-10-08 10:19:36.834 - PASSED - Step 7 - Submit Claim button was clicked.
+[INFO ] 2024-10-08 10:19:37.230 - PASSED - Step 8 - Event dropdown is visible.
+[INFO ] 2024-10-08 10:19:37.281 - PASSED - Step 9 - Event dropdown was clicked.
+[INFO ] 2024-10-08 10:19:37.319 - PASSED - Step 10 - Listboxdropdown is visible.
+[INFO ] 2024-10-08 10:19:37.615 - PASSED - Step 11 - Listbox Event options is visible.
+[INFO ] 2024-10-08 10:19:37.669 - PASSED - Step 12 - Listbox Event options was clicked.
+[INFO ] 2024-10-08 10:19:37.749 - PASSED - Step 13 - Currency dropdown was clicked.
+[INFO ] 2024-10-08 10:19:37.804 - PASSED - Step 14 - Listboxdropdown is visible.
+[INFO ] 2024-10-08 10:19:37.847 - PASSED - Step 15 - Listbox Currency options is visible.
+[INFO ] 2024-10-08 10:19:37.889 - PASSED - Step 16 - Listbox Currency options was clicked.
+[INFO ] 2024-10-08 10:19:37.933 - PASSED - Step 17 - Currency dropdown was clicked.
+[ERROR] 2024-10-08 10:19:40.456 - FAILED - java.lang.ExceptionInInitializerError
+[INFO ] 2024-10-08 10:19:40.457 - java.lang.ExceptionInInitializerError
+[INFO ] 2024-10-08 10:19:40.457 - =================================== END TEST ===================================

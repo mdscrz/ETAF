@@ -1,0 +1,19 @@
+[INFO ] 2024-11-07 14:17:12.115 - =================================== START TEST ===================================
+[INFO ] 2024-11-07 14:17:12.124 - Test Case report initialize for VerifyAddEEViaDataImport
+[INFO ] 2024-11-07 14:17:45.357 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-11-07 14:17:45.426 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-11-07 14:17:45.460 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-11-07 14:17:45.534 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-11-07 14:17:45.583 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-11-07 14:17:47.247 - PASSED - Step 6 - tab_PIM is visible.
+[INFO ] 2024-11-07 14:17:48.250 - PASSED - Step 7 - tab_PIM was clicked.
+[INFO ] 2024-11-07 14:17:48.786 - PASSED - Step 8 - Configuration tab is visible.
+[INFO ] 2024-11-07 14:17:48.834 - PASSED - Step 9 - Configuration tab was clicked.
+[INFO ] 2024-11-07 14:17:49.399 - PASSED - Step 10 - Configuration tab options is visible.
+[INFO ] 2024-11-07 14:17:49.837 - PASSED - Step 11 - Configuration tab options was clicked.
+[INFO ] 2024-11-07 14:17:50.237 - PASSED - Step 12 - field_inputPathtoUploadData is populated with C:\Users\mary.cruz\Desktop\ETAF\src\main\java\testData\importData_Test.csv.
+[INFO ] 2024-11-07 14:17:50.273 - PASSED - Step 13 - button Save/Create is visible.
+[INFO ] 2024-11-07 14:17:50.304 - PASSED - Step 14 - button Save/Create was clicked.
+[ERROR] 2024-11-07 14:17:53.183 - FAILED - java.lang.AssertionError: expected [true] but found [false]
+[INFO ] 2024-11-07 14:17:53.183 - java.lang.AssertionError: expected [true] but found [false]
+[INFO ] 2024-11-07 14:17:53.184 - =================================== END TEST ===================================
