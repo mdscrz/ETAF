@@ -1,0 +1,30 @@
+[INFO ] 2024-11-07 14:58:20.811 - =================================== START TEST ===================================
+[INFO ] 2024-11-07 14:58:20.820 - Test Case report initialize for VerifyUnsuccesfulDownloadofEE
+[INFO ] 2024-11-07 14:58:54.261 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-11-07 14:58:54.325 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-11-07 14:58:54.368 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-11-07 14:58:54.433 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-11-07 14:58:55.763 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-11-07 14:58:56.174 - PASSED - Step 6 - tab_Maintenance is visible.
+[INFO ] 2024-11-07 14:58:57.077 - PASSED - Step 7 - tab_Maintenance was clicked.
+[INFO ] 2024-11-07 14:58:57.607 - PASSED - Step 8 - Submit button is visible.
+[INFO ] 2024-11-07 14:58:57.642 - PASSED - Step 9 - Submit button was clicked.
+[ERROR] 2024-11-07 14:59:13.161 - FAILED - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Access Records']"}
+  (Session info: chrome=130.0.6723.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4564f9749ce7df9df6dcd002f5cf2d7b, findElement {using=xpath, value=//a[text()='Access Records']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.71, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53407}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53407/devtoo..., se:cdpVersion: 130.0.6723.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4564f9749ce7df9df6dcd002f5cf2d7b
+[INFO ] 2024-11-07 14:59:13.164 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Access Records']"}
+  (Session info: chrome=130.0.6723.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4564f9749ce7df9df6dcd002f5cf2d7b, findElement {using=xpath, value=//a[text()='Access Records']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.71, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53407}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53407/devtoo..., se:cdpVersion: 130.0.6723.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4564f9749ce7df9df6dcd002f5cf2d7b
+[INFO ] 2024-11-07 14:59:13.165 - =================================== END TEST ===================================

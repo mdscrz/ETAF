@@ -1,0 +1,5 @@
+[INFO ] 2024-11-07 10:46:36.247 - =================================== START TEST ===================================
+[INFO ] 2024-11-07 10:46:36.255 - Test Case report initialize for VerifyAddEEviaDataImport
+[ERROR] 2024-11-07 10:46:37.566 - FAILED - java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 1
+[INFO ] 2024-11-07 10:46:37.567 - java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 1
+[INFO ] 2024-11-07 10:46:37.567 - =================================== END TEST ===================================

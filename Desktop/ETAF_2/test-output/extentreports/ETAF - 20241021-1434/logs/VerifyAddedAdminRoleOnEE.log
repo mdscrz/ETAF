@@ -1,0 +1,38 @@
+[INFO ] 2024-10-21 14:34:41.539 - =================================== START TEST ===================================
+[INFO ] 2024-10-21 14:34:41.549 - Test Case report initialize for VerifyAddedAdminRoleOnEE
+[INFO ] 2024-10-21 14:35:15.448 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-10-21 14:35:15.503 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-10-21 14:35:15.531 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-10-21 14:35:15.606 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-10-21 14:35:15.664 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-10-21 14:35:17.322 - PASSED - Step 6 - Admin Tab is visible.
+[INFO ] 2024-10-21 14:35:18.261 - PASSED - Step 7 - Admin Tab was clicked.
+[INFO ] 2024-10-21 14:35:18.658 - PASSED - Step 8 - addButton is displayed.
+[INFO ] 2024-10-21 14:35:19.115 - PASSED - Step 9 - addButton was clicked.
+[INFO ] 2024-10-21 14:35:19.498 - PASSED - Step 10 - User role dropdown is visible.
+[INFO ] 2024-10-21 14:35:19.532 - PASSED - Step 11 - User role dropdown was clicked.
+[INFO ] 2024-10-21 14:35:19.579 - PASSED - Step 12 - Listbox user role options is visible.
+[INFO ] 2024-10-21 14:35:19.616 - PASSED - Step 13 - Listbox user role options was clicked.
+[INFO ] 2024-10-21 14:35:19.650 - PASSED - Step 14 - Status dropdown was clicked.
+[INFO ] 2024-10-21 14:35:19.684 - PASSED - Step 15 - Listbox status options was clicked.
+[INFO ] 2024-10-21 14:35:19.839 - PASSED - Step 16 - Input Employee fullname of existing employee was clicked.
+[INFO ] 2024-10-21 14:35:19.849 - PASSED - Step 17 - Input Employee fullname of existing employee for select all action is successful.
+[ERROR] 2024-10-21 14:35:22.354 - FAILED - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=129.0.6668.100)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e32df60f13ce815005b9a1704c6166b, sendKeysToElement {id=f.6656C969E3EF115603D8633CA7B39E39.d.B4EDA8A71BAAA96B26DD763E9BCC6160.e.80, value=[Ljava.lang.CharSequence;@4ff9f715}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57899/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0e32df60f13ce815005b9a1704c6166b)] -> xpath: //label[text()='Employee Name']/parent::div/following-sibling::div]
+Session ID: 0e32df60f13ce815005b9a1704c6166b
+[INFO ] 2024-10-21 14:35:22.355 - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=129.0.6668.100)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e32df60f13ce815005b9a1704c6166b, sendKeysToElement {id=f.6656C969E3EF115603D8633CA7B39E39.d.B4EDA8A71BAAA96B26DD763E9BCC6160.e.80, value=[Ljava.lang.CharSequence;@4ff9f715}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57899/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0e32df60f13ce815005b9a1704c6166b)] -> xpath: //label[text()='Employee Name']/parent::div/following-sibling::div]
+Session ID: 0e32df60f13ce815005b9a1704c6166b
+[INFO ] 2024-10-21 14:35:22.355 - =================================== END TEST ===================================

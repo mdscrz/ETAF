@@ -1,0 +1,34 @@
+[INFO ] 2024-10-22 09:19:40.513 - =================================== START TEST ===================================
+[INFO ] 2024-10-22 09:19:40.522 - Test Case report initialize for VerifyAddedAdminRoleOnEE
+[INFO ] 2024-10-22 09:20:14.787 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-10-22 09:20:14.788 - PASSED - Step 2 - Admin
+[INFO ] 2024-10-22 09:20:14.848 - PASSED - Step 3 - username is populated with Admin.
+[INFO ] 2024-10-22 09:20:14.879 - PASSED - Step 4 - password is displayed.
+[INFO ] 2024-10-22 09:20:14.879 - PASSED - Step 5 - admin123
+[INFO ] 2024-10-22 09:20:14.943 - PASSED - Step 6 - password is populated with admin123.
+[INFO ] 2024-10-22 09:20:16.237 - PASSED - Step 7 - loginButton was clicked.
+[INFO ] 2024-10-22 09:20:16.633 - PASSED - Step 8 - My Info Tab is visible.
+[INFO ] 2024-10-22 09:20:17.616 - PASSED - Step 9 - My Info Tab was clicked.
+[INFO ] 2024-10-22 09:20:18.156 - PASSED - Step 10 - Employee full name first name is visible.
+[INFO ] 2024-10-22 09:20:18.184 - PASSED - Step 11 - 
+[INFO ] 2024-10-22 09:20:18.220 - PASSED - Step 12 - 
+[INFO ] 2024-10-22 09:20:18.254 - PASSED - Step 13 - Admin Tab is visible.
+[INFO ] 2024-10-22 09:20:19.114 - PASSED - Step 14 - Admin Tab was clicked.
+[INFO ] 2024-10-22 09:20:19.491 - PASSED - Step 15 - addButton is displayed.
+[INFO ] 2024-10-22 09:20:19.954 - PASSED - Step 16 - addButton was clicked.
+[INFO ] 2024-10-22 09:20:20.352 - PASSED - Step 17 - User role dropdown is visible.
+[INFO ] 2024-10-22 09:20:20.389 - PASSED - Step 18 - User role dropdown was clicked.
+[INFO ] 2024-10-22 09:20:20.430 - PASSED - Step 19 - Listbox user role options is visible.
+[INFO ] 2024-10-22 09:20:20.481 - PASSED - Step 20 - Listbox user role options was clicked.
+[INFO ] 2024-10-22 09:20:20.526 - PASSED - Step 21 - Status dropdown was clicked.
+[INFO ] 2024-10-22 09:20:20.565 - PASSED - Step 22 - Listbox status options was clicked.
+[INFO ] 2024-10-22 09:20:20.616 - PASSED - Step 23 - Input Employee fullname of existing employee was clicked.
+[INFO ] 2024-10-22 09:20:20.617 - PASSED - Step 24 -  
+[INFO ] 2024-10-22 09:20:20.649 - PASSED - Step 25 - Input Employee fullname of existing employee is populated with  .
+[INFO ] 2024-10-22 09:20:20.701 - PASSED - Step 26 - Username field was clicked.
+[INFO ] 2024-10-22 09:20:20.801 - PASSED - Step 27 - sue.leuschke
+[INFO ] 2024-10-22 09:20:20.854 - PASSED - Step 28 - Username field is populated with sue.leuschke.
+[INFO ] 2024-10-22 09:20:20.902 - PASSED - Step 29 - confirm password was clicked.
+[INFO ] 2024-10-22 09:20:20.903 - PASSED - Step 30 - admin123
+[INFO ] 2024-10-22 09:20:20.940 - PASSED - Step 31 - confirm password is populated with admin123.
+[INFO ] 2024-10-22 09:20:20.941 - =================================== END TEST ===================================

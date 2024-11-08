@@ -1,0 +1,32 @@
+[INFO ] 2024-11-07 13:57:28.755 - =================================== START TEST ===================================
+[INFO ] 2024-11-07 13:57:28.767 - Test Case report initialize for VerifyAddEEViaDataImport
+[INFO ] 2024-11-07 13:58:01.739 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-11-07 13:58:01.808 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-11-07 13:58:01.845 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-11-07 13:58:01.922 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-11-07 13:58:01.972 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-11-07 13:58:03.643 - PASSED - Step 6 - tab_PIM is visible.
+[INFO ] 2024-11-07 13:58:04.592 - PASSED - Step 7 - tab_PIM was clicked.
+[INFO ] 2024-11-07 13:58:05.028 - PASSED - Step 8 - Configuration tab is visible.
+[INFO ] 2024-11-07 13:58:05.080 - PASSED - Step 9 - Configuration tab was clicked.
+[INFO ] 2024-11-07 13:58:05.630 - PASSED - Step 10 - Configuration tab options is visible.
+[INFO ] 2024-11-07 13:58:06.046 - PASSED - Step 11 - Configuration tab options was clicked.
+[ERROR] 2024-11-07 13:58:08.916 - FAILED - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : \Desktop\ETAF\src\main\java\testData\
+  (Session info: chrome=130.0.6723.71)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [51b32b55e4426143c892838812d1071c, sendKeysToElement {id=f.DC04BDEA86EF44FEF91BB79CAFC0554B.d.4CEAA2C8A8BAAED915BF34A1587C0CEF.e.64, value=[Ljava.lang.CharSequence;@69fe8c75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.71, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65191/devtoo..., se:cdpVersion: 130.0.6723.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (51b32b55e4426143c892838812d1071c)] -> xpath: //input[@type='file']]
+Session ID: 51b32b55e4426143c892838812d1071c
+[INFO ] 2024-11-07 13:58:08.917 - org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : \Desktop\ETAF\src\main\java\testData\
+  (Session info: chrome=130.0.6723.71)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [51b32b55e4426143c892838812d1071c, sendKeysToElement {id=f.DC04BDEA86EF44FEF91BB79CAFC0554B.d.4CEAA2C8A8BAAED915BF34A1587C0CEF.e.64, value=[Ljava.lang.CharSequence;@69fe8c75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.71, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65191/devtoo..., se:cdpVersion: 130.0.6723.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (51b32b55e4426143c892838812d1071c)] -> xpath: //input[@type='file']]
+Session ID: 51b32b55e4426143c892838812d1071c
+[INFO ] 2024-11-07 13:58:08.917 - =================================== END TEST ===================================

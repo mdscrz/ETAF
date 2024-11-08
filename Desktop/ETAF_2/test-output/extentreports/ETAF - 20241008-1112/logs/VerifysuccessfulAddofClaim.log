@@ -1,0 +1,32 @@
+[INFO ] 2024-10-08 11:12:45.476 - =================================== START TEST ===================================
+[INFO ] 2024-10-08 11:12:45.486 - Test Case report initialize for VerifysuccessfulAddofClaim
+[INFO ] 2024-10-08 11:12:52.635 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-10-08 11:12:52.700 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-10-08 11:12:52.740 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-10-08 11:12:52.818 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-10-08 11:12:53.970 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-10-08 11:12:55.354 - PASSED - Step 6 - tab_Claim was clicked.
+[INFO ] 2024-10-08 11:12:56.355 - PASSED - Step 7 - Submit Claim button was clicked.
+[INFO ] 2024-10-08 11:12:56.763 - PASSED - Step 8 - Event dropdown is visible.
+[INFO ] 2024-10-08 11:12:56.804 - PASSED - Step 9 - Event dropdown was clicked.
+[INFO ] 2024-10-08 11:12:56.839 - PASSED - Step 10 - Listboxdropdown is visible.
+[INFO ] 2024-10-08 11:12:57.081 - PASSED - Step 11 - Listbox Event options is visible.
+[INFO ] 2024-10-08 11:12:57.120 - PASSED - Step 12 - Listbox Event options was clicked.
+[INFO ] 2024-10-08 11:12:57.151 - PASSED - Step 13 - Event dropdown was clicked.
+[INFO ] 2024-10-08 11:12:57.205 - PASSED - Step 14 - Currency dropdown was clicked.
+[INFO ] 2024-10-08 11:12:57.249 - PASSED - Step 15 - Listboxdropdown is visible.
+[INFO ] 2024-10-08 11:12:57.286 - PASSED - Step 16 - Listbox Currency options is visible.
+[INFO ] 2024-10-08 11:12:57.325 - PASSED - Step 17 - Listbox Currency options was clicked.
+[INFO ] 2024-10-08 11:12:57.371 - PASSED - Step 18 - Currency dropdown was clicked.
+[INFO ] 2024-10-08 11:12:57.440 - PASSED - Step 19 - Remarks Field description is populated with Remarks Description Test.
+[INFO ] 2024-10-08 11:12:57.498 - PASSED - Step 20 - button Save/Create was clicked.
+[INFO ] 2024-10-08 11:13:01.129 - PASSED - Step 21 - Submit claim header is displayed.
+[INFO ] 2024-10-08 11:13:01.637 - PASSED - Step 22 - addButton was clicked.
+[INFO ] 2024-10-08 11:13:01.690 - PASSED - Step 23 - Add expense tab is displayed.
+[INFO ] 2024-10-08 11:13:01.757 - PASSED - Step 24 - Exepense Type dropdown was clicked.
+[INFO ] 2024-10-08 11:13:02.062 - PASSED - Step 25 - Listbox Expense Type options is visible.
+[INFO ] 2024-10-08 11:13:02.177 - PASSED - Step 26 - Listbox Expense Type options was clicked.
+[INFO ] 2024-10-08 11:13:02.218 - PASSED - Step 27 - Exepense Type dropdown was clicked.
+[ERROR] 2024-10-08 11:13:04.887 - FAILED - java.lang.ExceptionInInitializerError
+[INFO ] 2024-10-08 11:13:04.888 - java.lang.ExceptionInInitializerError
+[INFO ] 2024-10-08 11:13:04.888 - =================================== END TEST ===================================

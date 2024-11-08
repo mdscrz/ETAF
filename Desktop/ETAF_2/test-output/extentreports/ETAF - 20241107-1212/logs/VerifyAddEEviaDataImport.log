@@ -1,0 +1,16 @@
+[INFO ] 2024-11-07 12:12:59.860 - =================================== START TEST ===================================
+[INFO ] 2024-11-07 12:12:59.869 - Test Case report initialize for VerifyAddEEviaDataImport
+[INFO ] 2024-11-07 12:13:32.979 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-11-07 12:13:33.042 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-11-07 12:13:33.079 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-11-07 12:13:33.143 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-11-07 12:13:34.469 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-11-07 12:13:34.876 - PASSED - Step 6 - tab_PIM is visible.
+[INFO ] 2024-11-07 12:13:35.826 - PASSED - Step 7 - tab_PIM was clicked.
+[INFO ] 2024-11-07 12:13:36.254 - PASSED - Step 8 - Configuration tab is visible.
+[INFO ] 2024-11-07 12:13:36.297 - PASSED - Step 9 - Configuration tab was clicked.
+[INFO ] 2024-11-07 12:13:36.851 - PASSED - Step 10 - Configuration tab options is visible.
+[INFO ] 2024-11-07 12:13:37.269 - PASSED - Step 11 - Configuration tab options was clicked.
+[ERROR] 2024-11-07 12:13:40.130 - FAILED - java.lang.IllegalArgumentException: Extensions must be non-null and not empty
+[INFO ] 2024-11-07 12:13:40.131 - java.lang.IllegalArgumentException: Extensions must be non-null and not empty
+[INFO ] 2024-11-07 12:13:40.131 - =================================== END TEST ===================================

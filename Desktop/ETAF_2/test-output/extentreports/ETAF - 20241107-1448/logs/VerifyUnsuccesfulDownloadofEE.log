@@ -1,0 +1,28 @@
+[INFO ] 2024-11-07 14:48:28.426 - =================================== START TEST ===================================
+[INFO ] 2024-11-07 14:48:28.438 - Test Case report initialize for VerifyUnsuccesfulDownloadofEE
+[INFO ] 2024-11-07 14:49:01.775 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-11-07 14:49:01.829 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-11-07 14:49:01.869 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-11-07 14:49:01.939 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-11-07 14:49:02.014 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-11-07 14:49:03.758 - PASSED - Step 6 - tab_Maintenance is visible.
+[INFO ] 2024-11-07 14:49:04.823 - PASSED - Step 7 - tab_Maintenance was clicked.
+[ERROR] 2024-11-07 14:49:17.304 - FAILED - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']"}
+  (Session info: chrome=130.0.6723.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a872ba8d5cf42c203b302124d8e69d80, findElement {using=xpath, value=//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.71, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52709/devtoo..., se:cdpVersion: 130.0.6723.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a872ba8d5cf42c203b302124d8e69d80
+[INFO ] 2024-11-07 14:49:17.305 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']"}
+  (Session info: chrome=130.0.6723.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a872ba8d5cf42c203b302124d8e69d80, findElement {using=xpath, value=//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.71, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52709/devtoo..., se:cdpVersion: 130.0.6723.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a872ba8d5cf42c203b302124d8e69d80
+[INFO ] 2024-11-07 14:49:17.306 - =================================== END TEST ===================================

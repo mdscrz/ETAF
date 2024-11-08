@@ -1,0 +1,53 @@
+[INFO ] 2024-10-22 14:51:59.676 - =================================== START TEST ===================================
+[INFO ] 2024-10-22 14:51:59.687 - Test Case report initialize for VerifyAddedAdminRoleOnEE
+[INFO ] 2024-10-22 14:52:33.914 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-10-22 14:52:33.914 - PASSED - Step 2 - Admin
+[INFO ] 2024-10-22 14:52:33.980 - PASSED - Step 3 - username is populated with Admin.
+[INFO ] 2024-10-22 14:52:34.019 - PASSED - Step 4 - password is displayed.
+[INFO ] 2024-10-22 14:52:34.019 - PASSED - Step 5 - admin123
+[INFO ] 2024-10-22 14:52:34.106 - PASSED - Step 6 - password is populated with admin123.
+[INFO ] 2024-10-22 14:52:35.357 - PASSED - Step 7 - loginButton was clicked.
+[INFO ] 2024-10-22 14:52:35.771 - PASSED - Step 8 - My Info Tab is visible.
+[INFO ] 2024-10-22 14:52:36.779 - PASSED - Step 9 - My Info Tab was clicked.
+[INFO ] 2024-10-22 14:52:37.185 - PASSED - Step 10 - Employee full name first name is visible.
+[INFO ] 2024-10-22 14:52:37.208 - PASSED - Step 11 - Employee full name first name text attribute captured.
+[INFO ] 2024-10-22 14:52:37.250 - PASSED - Step 12 - Admin Tab is visible.
+[INFO ] 2024-10-22 14:52:38.134 - PASSED - Step 13 - Admin Tab was clicked.
+[INFO ] 2024-10-22 14:52:38.523 - PASSED - Step 14 - addButton is displayed.
+[INFO ] 2024-10-22 14:52:38.981 - PASSED - Step 15 - addButton was clicked.
+[INFO ] 2024-10-22 14:52:39.393 - PASSED - Step 16 - User role dropdown is visible.
+[INFO ] 2024-10-22 14:52:39.436 - PASSED - Step 17 - User role dropdown was clicked.
+[INFO ] 2024-10-22 14:52:39.480 - PASSED - Step 18 - Listbox user role options is visible.
+[INFO ] 2024-10-22 14:52:39.526 - PASSED - Step 19 - Listbox user role options was clicked.
+[INFO ] 2024-10-22 14:52:39.569 - PASSED - Step 20 - Status dropdown was clicked.
+[INFO ] 2024-10-22 14:52:39.610 - PASSED - Step 21 - Listbox status options was clicked.
+[INFO ] 2024-10-22 14:52:39.663 - PASSED - Step 22 - Input Employee fullname of existing employee was clicked.
+[INFO ] 2024-10-22 14:52:39.663 - PASSED - Step 23 - 
+[INFO ] 2024-10-22 14:52:39.696 - PASSED - Step 24 - Input Employee fullname of existing employee is populated with .
+[INFO ] 2024-10-22 14:52:39.744 - PASSED - Step 25 - Username field was clicked.
+[INFO ] 2024-10-22 14:52:39.874 - PASSED - Step 26 - devon.metz
+[INFO ] 2024-10-22 14:52:39.927 - PASSED - Step 27 - Username field is populated with devon.metz.
+[INFO ] 2024-10-22 14:52:39.999 - PASSED - Step 28 - confirm password was clicked.
+[INFO ] 2024-10-22 14:52:39.999 - PASSED - Step 29 - admin123
+[INFO ] 2024-10-22 14:52:40.043 - PASSED - Step 30 - confirm password is populated with admin123.
+[INFO ] 2024-10-22 14:52:40.079 - PASSED - Step 31 - tab User Management is visible.
+[INFO ] 2024-10-22 14:52:40.117 - PASSED - Step 32 - tab User Management was clicked.
+[ERROR] 2024-10-22 14:52:53.045 - FAILED - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[contains(@class,'oxd-table-cell oxd-padding-cell')]//div)[4]"}
+  (Session info: chrome=129.0.6668.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [78589bb939ce6e3ec045009b11e0d2dc, findElement {using=xpath, value=(//div[contains(@class,'oxd-table-cell oxd-padding-cell')]//div)[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54634}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54634/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 78589bb939ce6e3ec045009b11e0d2dc
+[INFO ] 2024-10-22 14:52:53.046 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[contains(@class,'oxd-table-cell oxd-padding-cell')]//div)[4]"}
+  (Session info: chrome=129.0.6668.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [78589bb939ce6e3ec045009b11e0d2dc, findElement {using=xpath, value=(//div[contains(@class,'oxd-table-cell oxd-padding-cell')]//div)[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54634}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54634/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 78589bb939ce6e3ec045009b11e0d2dc
+[INFO ] 2024-10-22 14:52:53.047 - =================================== END TEST ===================================

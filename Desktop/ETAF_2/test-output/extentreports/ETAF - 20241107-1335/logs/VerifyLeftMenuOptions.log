@@ -1,0 +1,21 @@
+[INFO ] 2024-11-07 13:35:30.878 - =================================== START TEST ===================================
+[INFO ] 2024-11-07 13:35:30.890 - Test Case report initialize for VerifyLeftMenuOptions
+[INFO ] 2024-11-07 13:36:05.076 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-11-07 13:36:05.134 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-11-07 13:36:05.162 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-11-07 13:36:05.234 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-11-07 13:36:06.609 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-11-07 13:36:07.013 - PASSED - Step 6 - tab Dashboard is visible.
+[INFO ] 2024-11-07 13:36:07.037 - PASSED - Step 7 - tab Dashboard is displayed.
+[INFO ] 2024-11-07 13:36:07.065 - PASSED - Step 8 - tab_PIM is displayed.
+[INFO ] 2024-11-07 13:36:07.090 - PASSED - Step 9 - tab Directory is displayed.
+[INFO ] 2024-11-07 13:36:07.127 - PASSED - Step 10 - tab Performance is displayed.
+[INFO ] 2024-11-07 13:36:07.156 - PASSED - Step 11 - Admin Tab is displayed.
+[INFO ] 2024-11-07 13:36:07.179 - PASSED - Step 12 - tab_Buzz is displayed.
+[INFO ] 2024-11-07 13:36:07.205 - PASSED - Step 13 - tab_Claim is displayed.
+[INFO ] 2024-11-07 13:36:07.231 - PASSED - Step 14 - tab_Leave is displayed.
+[INFO ] 2024-11-07 13:36:07.259 - PASSED - Step 15 - tab_Maintenance is displayed.
+[INFO ] 2024-11-07 13:36:07.283 - PASSED - Step 16 - My Info Tab is displayed.
+[INFO ] 2024-11-07 13:36:07.334 - PASSED - Step 17 - tab_Time is displayed.
+[INFO ] 2024-11-07 13:36:07.364 - PASSED - Step 18 - tab_Recruitment is displayed.
+[INFO ] 2024-11-07 13:36:07.365 - =================================== END TEST ===================================

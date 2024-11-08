@@ -1,0 +1,49 @@
+[INFO ] 2024-10-21 15:19:52.512 - =================================== START TEST ===================================
+[INFO ] 2024-10-21 15:19:52.520 - Test Case report initialize for VerifyAddedAdminRoleOnEE
+[INFO ] 2024-10-21 15:20:26.248 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-10-21 15:20:26.248 - PASSED - Step 2 - Admin
+[INFO ] 2024-10-21 15:20:26.310 - PASSED - Step 3 - username is populated with Admin.
+[INFO ] 2024-10-21 15:20:26.337 - PASSED - Step 4 - password is displayed.
+[INFO ] 2024-10-21 15:20:26.338 - PASSED - Step 5 - admin123
+[INFO ] 2024-10-21 15:20:26.407 - PASSED - Step 6 - password is populated with admin123.
+[INFO ] 2024-10-21 15:20:27.702 - PASSED - Step 7 - loginButton was clicked.
+[INFO ] 2024-10-21 15:20:28.081 - PASSED - Step 8 - My Info Tab is visible.
+[INFO ] 2024-10-21 15:20:29.035 - PASSED - Step 9 - My Info Tab was clicked.
+[INFO ] 2024-10-21 15:20:29.450 - PASSED - Step 10 - Employee full name first name is visible.
+[INFO ] 2024-10-21 15:20:29.481 - PASSED - Step 11 - Employee full name first name text attribute captured.
+[INFO ] 2024-10-21 15:20:29.502 - PASSED - Step 12 - Employee full name last name text attribute captured.
+[INFO ] 2024-10-21 15:20:29.540 - PASSED - Step 13 - Admin Tab is visible.
+[INFO ] 2024-10-21 15:20:30.459 - PASSED - Step 14 - Admin Tab was clicked.
+[INFO ] 2024-10-21 15:20:30.827 - PASSED - Step 15 - addButton is displayed.
+[INFO ] 2024-10-21 15:20:31.226 - PASSED - Step 16 - addButton was clicked.
+[INFO ] 2024-10-21 15:20:31.586 - PASSED - Step 17 - User role dropdown is visible.
+[INFO ] 2024-10-21 15:20:31.617 - PASSED - Step 18 - User role dropdown was clicked.
+[INFO ] 2024-10-21 15:20:31.653 - PASSED - Step 19 - Listbox user role options is visible.
+[INFO ] 2024-10-21 15:20:31.688 - PASSED - Step 20 - Listbox user role options was clicked.
+[INFO ] 2024-10-21 15:20:31.727 - PASSED - Step 21 - Status dropdown was clicked.
+[INFO ] 2024-10-21 15:20:31.761 - PASSED - Step 22 - Listbox status options was clicked.
+[INFO ] 2024-10-21 15:20:31.805 - PASSED - Step 23 - Input Employee fullname of existing employee was clicked.
+[INFO ] 2024-10-21 15:20:31.805 - PASSED - Step 24 -  
+[INFO ] 2024-10-21 15:20:31.834 - PASSED - Step 25 - Input Employee fullname of existing employee is populated with  .
+[INFO ] 2024-10-21 15:20:31.866 - PASSED - Step 26 - Username field was clicked.
+[INFO ] 2024-10-21 15:20:31.881 - PASSED - Step 27 - Username field for select all action is successful.
+[INFO ] 2024-10-21 15:20:32.018 - PASSED - Step 28 - sam.herzog
+[ERROR] 2024-10-21 15:20:34.551 - FAILED - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=129.0.6668.100)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ffbf2c8ffcdb7cec770c20738d404d87, sendKeysToElement {id=f.A56D26FF2694743DD8CEC3BB5BBB5EFF.d.85CC0ACD98A102390EA06235ED33E8EF.e.139, value=[Ljava.lang.CharSequence;@5c25daad}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60246/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ffbf2c8ffcdb7cec770c20738d404d87)] -> xpath: //label[text()='Status']/parent::div/following-sibling::div]
+Session ID: ffbf2c8ffcdb7cec770c20738d404d87
+[INFO ] 2024-10-21 15:20:34.551 - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=129.0.6668.100)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ffbf2c8ffcdb7cec770c20738d404d87, sendKeysToElement {id=f.A56D26FF2694743DD8CEC3BB5BBB5EFF.d.85CC0ACD98A102390EA06235ED33E8EF.e.139, value=[Ljava.lang.CharSequence;@5c25daad}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60246/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ffbf2c8ffcdb7cec770c20738d404d87)] -> xpath: //label[text()='Status']/parent::div/following-sibling::div]
+Session ID: ffbf2c8ffcdb7cec770c20738d404d87
+[INFO ] 2024-10-21 15:20:34.552 - =================================== END TEST ===================================

@@ -1,0 +1,5 @@
+[INFO ] 2024-11-07 10:54:52.172 - =================================== START TEST ===================================
+[INFO ] 2024-11-07 10:54:52.178 - Test Case report initialize for VerifyAddEEviaDataImport
+[ERROR] 2024-11-07 10:54:53.484 - FAILED - java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+[INFO ] 2024-11-07 10:54:53.485 - java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+[INFO ] 2024-11-07 10:54:53.485 - =================================== END TEST ===================================

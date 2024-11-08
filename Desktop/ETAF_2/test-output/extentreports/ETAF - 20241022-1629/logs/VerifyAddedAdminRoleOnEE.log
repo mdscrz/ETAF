@@ -1,0 +1,51 @@
+[INFO ] 2024-10-22 16:30:14.066 - =================================== START TEST ===================================
+[INFO ] 2024-10-22 16:30:14.142 - Test Case report initialize for VerifyAddedAdminRoleOnEE
+[INFO ] 2024-10-22 16:30:49.508 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-10-22 16:30:50.122 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-10-22 16:30:50.395 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-10-22 16:30:51.039 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-10-22 16:30:53.176 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-10-22 16:30:54.534 - PASSED - Step 6 - My Info Tab is visible.
+[INFO ] 2024-10-22 16:30:57.445 - PASSED - Step 7 - My Info Tab was clicked.
+[INFO ] 2024-10-22 16:30:58.817 - PASSED - Step 8 - Employee full name is visible.
+[INFO ] 2024-10-22 16:31:02.005 - PASSED - Step 9 - !!!!!firstName lastName
+[INFO ] 2024-10-22 16:31:02.007 - PASSED - Step 10 - firstName lastName
+[INFO ] 2024-10-22 16:31:02.010 - PASSED - Step 11 - Employee full name text attribute captured.
+[INFO ] 2024-10-22 16:31:02.286 - PASSED - Step 12 - Admin Tab is visible.
+[INFO ] 2024-10-22 16:31:03.781 - PASSED - Step 13 - Admin Tab was clicked.
+[INFO ] 2024-10-22 16:31:04.795 - PASSED - Step 14 - addButton is displayed.
+[INFO ] 2024-10-22 16:31:06.350 - PASSED - Step 15 - addButton was clicked.
+[INFO ] 2024-10-22 16:31:07.368 - PASSED - Step 16 - User role dropdown is visible.
+[INFO ] 2024-10-22 16:31:07.685 - PASSED - Step 17 - User role dropdown was clicked.
+[INFO ] 2024-10-22 16:31:07.989 - PASSED - Step 18 - Listbox user role options is visible.
+[INFO ] 2024-10-22 16:31:08.399 - PASSED - Step 19 - Listbox user role options was clicked.
+[INFO ] 2024-10-22 16:31:08.756 - PASSED - Step 20 - Status dropdown was clicked.
+[INFO ] 2024-10-22 16:31:09.056 - PASSED - Step 21 - Listbox status options is visible.
+[INFO ] 2024-10-22 16:31:09.355 - PASSED - Step 22 - Listbox status options was clicked.
+[INFO ] 2024-10-22 16:31:09.778 - PASSED - Step 23 - Input Employee fullname of existing employee was clicked.
+[INFO ] 2024-10-22 16:31:13.015 - PASSED - Step 24 - Input Employee fullname of existing employee is populated with .
+[INFO ] 2024-10-22 16:31:13.371 - PASSED - Step 25 - Username field was clicked.
+[INFO ] 2024-10-22 16:31:14.782 - PASSED - Step 26 - Username field is populated with rhett.thiel.
+[INFO ] 2024-10-22 16:31:15.202 - PASSED - Step 27 - confirm password was clicked.
+[INFO ] 2024-10-22 16:31:15.506 - PASSED - Step 28 - confirm password is populated with admin123.
+[INFO ] 2024-10-22 16:31:15.780 - PASSED - Step 29 - tab User Management is visible.
+[INFO ] 2024-10-22 16:31:16.094 - PASSED - Step 30 - tab User Management was clicked.
+[ERROR] 2024-10-22 16:31:32.874 - FAILED - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[contains(@class,'oxd-table-cell oxd-padding-cell')]//div)[4]"}
+  (Session info: chrome=129.0.6668.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01b85cc67c011e4fb0fb3d844efff9e4, findElement {using=xpath, value=(//div[contains(@class,'oxd-table-cell oxd-padding-cell')]//div)[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61679}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61679/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 01b85cc67c011e4fb0fb3d844efff9e4
+[INFO ] 2024-10-22 16:31:32.883 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[contains(@class,'oxd-table-cell oxd-padding-cell')]//div)[4]"}
+  (Session info: chrome=129.0.6668.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01b85cc67c011e4fb0fb3d844efff9e4, findElement {using=xpath, value=(//div[contains(@class,'oxd-table-cell oxd-padding-cell')]//div)[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61679}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61679/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 01b85cc67c011e4fb0fb3d844efff9e4
+[INFO ] 2024-10-22 16:31:32.887 - =================================== END TEST ===================================

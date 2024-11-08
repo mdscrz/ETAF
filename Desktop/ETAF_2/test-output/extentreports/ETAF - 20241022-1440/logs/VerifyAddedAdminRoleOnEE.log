@@ -1,0 +1,54 @@
+[INFO ] 2024-10-22 14:40:44.383 - =================================== START TEST ===================================
+[INFO ] 2024-10-22 14:40:44.390 - Test Case report initialize for VerifyAddedAdminRoleOnEE
+[INFO ] 2024-10-22 14:41:18.115 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-10-22 14:41:18.116 - PASSED - Step 2 - Admin
+[INFO ] 2024-10-22 14:41:18.268 - PASSED - Step 3 - username is populated with Admin.
+[INFO ] 2024-10-22 14:41:18.350 - PASSED - Step 4 - password is displayed.
+[INFO ] 2024-10-22 14:41:18.351 - PASSED - Step 5 - admin123
+[INFO ] 2024-10-22 14:41:18.538 - PASSED - Step 6 - password is populated with admin123.
+[INFO ] 2024-10-22 14:41:18.649 - PASSED - Step 7 - loginButton was clicked.
+[INFO ] 2024-10-22 14:41:20.419 - PASSED - Step 8 - My Info Tab is visible.
+[INFO ] 2024-10-22 14:41:21.497 - PASSED - Step 9 - My Info Tab was clicked.
+[INFO ] 2024-10-22 14:41:21.984 - PASSED - Step 10 - Employee full name first name is visible.
+[INFO ] 2024-10-22 14:41:22.021 - PASSED - Step 11 - 
+[INFO ] 2024-10-22 14:41:22.056 - PASSED - Step 12 - 
+[INFO ] 2024-10-22 14:41:22.102 - PASSED - Step 13 - Admin Tab is visible.
+[INFO ] 2024-10-22 14:41:23.102 - PASSED - Step 14 - Admin Tab was clicked.
+[INFO ] 2024-10-22 14:41:23.648 - PASSED - Step 15 - addButton is displayed.
+[INFO ] 2024-10-22 14:41:24.187 - PASSED - Step 16 - addButton was clicked.
+[INFO ] 2024-10-22 14:41:24.564 - PASSED - Step 17 - User role dropdown is visible.
+[INFO ] 2024-10-22 14:41:24.596 - PASSED - Step 18 - User role dropdown was clicked.
+[INFO ] 2024-10-22 14:41:24.639 - PASSED - Step 19 - Listbox user role options is visible.
+[INFO ] 2024-10-22 14:41:24.672 - PASSED - Step 20 - Listbox user role options was clicked.
+[INFO ] 2024-10-22 14:41:24.714 - PASSED - Step 21 - Status dropdown was clicked.
+[INFO ] 2024-10-22 14:41:24.754 - PASSED - Step 22 - Listbox status options was clicked.
+[INFO ] 2024-10-22 14:41:24.797 - PASSED - Step 23 - Input Employee fullname of existing employee was clicked.
+[INFO ] 2024-10-22 14:41:24.798 - PASSED - Step 24 -  
+[INFO ] 2024-10-22 14:41:24.825 - PASSED - Step 25 - Input Employee fullname of existing employee is populated with  .
+[INFO ] 2024-10-22 14:41:24.873 - PASSED - Step 26 - Username field was clicked.
+[INFO ] 2024-10-22 14:41:24.984 - PASSED - Step 27 - george.lakin
+[INFO ] 2024-10-22 14:41:25.022 - PASSED - Step 28 - Username field is populated with george.lakin.
+[INFO ] 2024-10-22 14:41:25.068 - PASSED - Step 29 - confirm password was clicked.
+[INFO ] 2024-10-22 14:41:25.069 - PASSED - Step 30 - admin123
+[INFO ] 2024-10-22 14:41:25.097 - PASSED - Step 31 - confirm password is populated with admin123.
+[ERROR] 2024-10-22 14:41:27.689 - FAILED - org.openqa.selenium.InvalidSelectorException: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //span[contains(text(),'User']) because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(text(),'User'])' is not a valid XPath expression."}
+  (Session info: chrome=129.0.6668.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7740b50e4c930708de016b7c295ab15f, findElement {using=xpath, value=//span[contains(text(),'User'])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53765}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53765/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7740b50e4c930708de016b7c295ab15f
+[INFO ] 2024-10-22 14:41:27.690 - org.openqa.selenium.InvalidSelectorException: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //span[contains(text(),'User']) because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(text(),'User'])' is not a valid XPath expression."}
+  (Session info: chrome=129.0.6668.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7740b50e4c930708de016b7c295ab15f, findElement {using=xpath, value=//span[contains(text(),'User'])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53765}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53765/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7740b50e4c930708de016b7c295ab15f
+[INFO ] 2024-10-22 14:41:27.690 - =================================== END TEST ===================================

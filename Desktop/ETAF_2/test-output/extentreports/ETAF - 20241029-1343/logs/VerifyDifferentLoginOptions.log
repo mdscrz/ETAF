@@ -1,0 +1,26 @@
+[INFO ] 2024-10-29 13:43:38.237 - =================================== START TEST ===================================
+[INFO ] 2024-10-29 13:43:38.306 - Test Case report initialize for VerifyDifferentLoginOptions
+[INFO ] 2024-10-29 13:44:12.622 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-10-29 13:44:13.387 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-10-29 13:44:13.770 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-10-29 13:44:14.774 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-10-29 13:44:17.379 - PASSED - Step 5 - loginButton was clicked.
+[ERROR] 2024-10-29 13:44:31.039 - FAILED - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href,'buzz')]"}
+  (Session info: chrome=130.0.6723.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d848d20c8fbba8e805e5350894f746fa, findElement {using=xpath, value=//a[contains(@href,'buzz')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.70, chrome: {chromedriverVersion: 130.0.6723.69 (3ec172b971b9..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51142}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51142/devtoo..., se:cdpVersion: 130.0.6723.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d848d20c8fbba8e805e5350894f746fa
+[INFO ] 2024-10-29 13:44:31.049 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href,'buzz')]"}
+  (Session info: chrome=130.0.6723.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d848d20c8fbba8e805e5350894f746fa, findElement {using=xpath, value=//a[contains(@href,'buzz')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.70, chrome: {chromedriverVersion: 130.0.6723.69 (3ec172b971b9..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51142}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51142/devtoo..., se:cdpVersion: 130.0.6723.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d848d20c8fbba8e805e5350894f746fa
+[INFO ] 2024-10-29 13:44:31.052 - =================================== END TEST ===================================

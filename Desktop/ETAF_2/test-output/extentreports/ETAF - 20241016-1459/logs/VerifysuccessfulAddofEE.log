@@ -1,0 +1,26 @@
+[INFO ] 2024-10-16 14:59:37.015 - =================================== START TEST ===================================
+[INFO ] 2024-10-16 14:59:37.021 - Test Case report initialize for VerifysuccessfulAddofEE
+[INFO ] 2024-10-16 15:00:10.957 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-10-16 15:00:11.034 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-10-16 15:00:11.080 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-10-16 15:00:11.141 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-10-16 15:00:11.193 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-10-16 15:00:13.901 - PASSED - Step 6 - tab_PIM was clicked.
+[INFO ] 2024-10-16 15:00:14.354 - PASSED - Step 7 - addButton is visible.
+[INFO ] 2024-10-16 15:00:14.818 - PASSED - Step 8 - addButton was clicked.
+[INFO ] 2024-10-16 15:00:15.207 - PASSED - Step 9 - input_firstName is visible.
+[INFO ] 2024-10-16 15:00:15.391 - PASSED - Step 10 - input_firstName is populated with Ileana.
+[INFO ] 2024-10-16 15:00:15.541 - PASSED - Step 11 - input_middleName is populated with Garcia.
+[INFO ] 2024-10-16 15:00:15.612 - PASSED - Step 12 - input_LastName is populated with Nikolaus.
+[INFO ] 2024-10-16 15:00:15.663 - PASSED - Step 13 - input employee id was clicked.
+[INFO ] 2024-10-16 15:00:15.678 - PASSED - Step 14 - input employee id for select all action is successful.
+[INFO ] 2024-10-16 15:00:15.709 - PASSED - Step 15 - input employee id is populated with 85110.
+[INFO ] 2024-10-16 15:00:15.755 - PASSED - Step 16 - Submit button was clicked.
+[INFO ] 2024-10-16 15:00:25.813 - PASSED - Step 17 - Employee List button is visible.
+[INFO ] 2024-10-16 15:00:26.247 - PASSED - Step 18 - Employee List button was clicked.
+[INFO ] 2024-10-16 15:00:26.644 - PASSED - Step 19 - Employee ID value is populated with 85110.
+[INFO ] 2024-10-16 15:00:26.676 - PASSED - Step 20 - Submit button was clicked.
+[INFO ] 2024-10-16 15:00:28.722 - PASSED - Step 21 - 85110
+[ERROR] 2024-10-16 15:00:31.220 - FAILED - java.lang.AssertionError: The actual value does not match the expected value! expected [85110] but found [85110]
+[INFO ] 2024-10-16 15:00:31.221 - java.lang.AssertionError: The actual value does not match the expected value! expected [85110] but found [85110]
+[INFO ] 2024-10-16 15:00:31.221 - =================================== END TEST ===================================
