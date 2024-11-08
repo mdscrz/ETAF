@@ -1,0 +1,24 @@
+[INFO ] 2024-11-08 14:40:55.385 - =================================== START TEST ===================================
+[INFO ] 2024-11-08 14:40:55.390 - Test Case report initialize for VerifysuccessfulAddofEE
+[INFO ] 2024-11-08 14:41:28.539 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-11-08 14:41:28.593 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-11-08 14:41:28.624 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-11-08 14:41:28.718 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-11-08 14:41:28.787 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-11-08 14:41:31.353 - PASSED - Step 6 - tab_PIM was clicked.
+[INFO ] 2024-11-08 14:41:31.740 - PASSED - Step 7 - addButton is visible.
+[INFO ] 2024-11-08 14:41:32.241 - PASSED - Step 8 - addButton was clicked.
+[INFO ] 2024-11-08 14:41:32.680 - PASSED - Step 9 - input_firstName is visible.
+[INFO ] 2024-11-08 14:41:32.794 - PASSED - Step 10 - input_firstName is populated with Beatriz.
+[INFO ] 2024-11-08 14:41:32.880 - PASSED - Step 11 - input_middleName is populated with Garcia.
+[INFO ] 2024-11-08 14:41:32.948 - PASSED - Step 12 - input_LastName is populated with Hilpert.
+[INFO ] 2024-11-08 14:41:33.075 - PASSED - Step 13 - input employee id was clicked.
+[INFO ] 2024-11-08 14:41:33.093 - PASSED - Step 14 - input employee id for select all action is successful.
+[INFO ] 2024-11-08 14:41:33.121 - PASSED - Step 15 - input employee id is populated with 80392.
+[INFO ] 2024-11-08 14:41:33.167 - PASSED - Step 16 - Submit button was clicked.
+[INFO ] 2024-11-08 14:41:43.211 - PASSED - Step 17 - Employee List button is visible.
+[INFO ] 2024-11-08 14:42:10.960 - PASSED - Step 18 - Employee List button was clicked.
+[INFO ] 2024-11-08 14:42:11.382 - PASSED - Step 19 - Employee ID value is populated with 80392.
+[INFO ] 2024-11-08 14:42:11.435 - PASSED - Step 20 - Submit button was clicked.
+[INFO ] 2024-11-08 14:42:16.484 - PASSED - Step 21 - 80392
+[INFO ] 2024-11-08 14:42:16.485 - =================================== END TEST ===================================

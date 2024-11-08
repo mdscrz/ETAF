@@ -1,0 +1,11 @@
+[INFO ] 2024-11-08 14:37:32.903 - =================================== START TEST ===================================
+[INFO ] 2024-11-08 14:37:32.916 - Test Case report initialize for VerifyDefaultSetupOnInitialLoad
+[INFO ] 2024-11-08 14:38:06.900 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-11-08 14:38:06.988 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-11-08 14:38:07.042 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-11-08 14:38:07.124 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-11-08 14:38:08.374 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-11-08 14:38:08.754 - PASSED - Step 6 - Orange HRM Homepage Logo is displayed.
+[INFO ] 2024-11-08 14:38:08.796 - PASSED - Step 7 - header_Dashboard is displayed.
+[INFO ] 2024-11-08 14:38:08.841 - PASSED - Step 8 - tab_Dashboard is displayed.
+[INFO ] 2024-11-08 14:38:08.844 - =================================== END TEST ===================================

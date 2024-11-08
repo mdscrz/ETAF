@@ -1,0 +1,42 @@
+[INFO ] 2024-11-08 10:17:56.762 - =================================== START TEST ===================================
+[INFO ] 2024-11-08 10:17:56.764 - Test Case report initialize for VerifyUnsuccesfulDownloadofEE
+[INFO ] 2024-11-08 10:18:29.777 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-11-08 10:18:29.845 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-11-08 10:18:29.875 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-11-08 10:18:29.965 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-11-08 10:18:30.046 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-11-08 10:18:31.717 - PASSED - Step 6 - My Info Tab is visible.
+[INFO ] 2024-11-08 10:18:32.684 - PASSED - Step 7 - My Info Tab was clicked.
+[INFO ] 2024-11-08 10:18:33.086 - PASSED - Step 8 - Employee full name is visible.
+[INFO ] 2024-11-08 10:18:36.154 - PASSED - Step 9 - manda
+[INFO ] 2024-11-08 10:18:36.209 - PASSED - Step 10 - tab_Maintenance is visible.
+[INFO ] 2024-11-08 10:18:37.009 - PASSED - Step 11 - tab_Maintenance was clicked.
+[INFO ] 2024-11-08 10:18:37.421 - PASSED - Step 12 - password is visible.
+[INFO ] 2024-11-08 10:18:37.459 - PASSED - Step 13 - password is populated with admin123.
+[INFO ] 2024-11-08 10:18:37.496 - PASSED - Step 14 - Submit button is visible.
+[INFO ] 2024-11-08 10:18:38.705 - PASSED - Step 15 - Submit button was clicked.
+[INFO ] 2024-11-08 10:18:41.794 - PASSED - Step 16 - Header Access Records is visible.
+[INFO ] 2024-11-08 10:18:42.273 - PASSED - Step 17 - Header Access Records was clicked.
+[INFO ] 2024-11-08 10:18:42.680 - PASSED - Step 18 - Input for Download Personal Data is visible.
+[INFO ] 2024-11-08 10:18:44.049 - PASSED - Step 19 - Submit button was clicked.
+[INFO ] 2024-11-08 10:18:47.111 - PASSED - Step 20 - Download button is visible.
+[INFO ] 2024-11-08 10:18:47.174 - PASSED - Step 21 - Download button was clicked.
+[ERROR] 2024-11-08 10:19:02.863 - FAILED - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='This page isn’t working']/ancestor::div//div[@id='main-message']"}
+  (Session info: chrome=130.0.6723.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [75188808346643a0b9f9760f1f8c6a54, findElement {using=xpath, value=//span[text()='This page isn’t working']/ancestor::div//div[@id='main-message']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.71, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60982}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60982/devtoo..., se:cdpVersion: 130.0.6723.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 75188808346643a0b9f9760f1f8c6a54
+[INFO ] 2024-11-08 10:19:02.864 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='This page isn’t working']/ancestor::div//div[@id='main-message']"}
+  (Session info: chrome=130.0.6723.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [75188808346643a0b9f9760f1f8c6a54, findElement {using=xpath, value=//span[text()='This page isn’t working']/ancestor::div//div[@id='main-message']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.71, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60982}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60982/devtoo..., se:cdpVersion: 130.0.6723.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 75188808346643a0b9f9760f1f8c6a54
+[INFO ] 2024-11-08 10:19:02.865 - =================================== END TEST ===================================

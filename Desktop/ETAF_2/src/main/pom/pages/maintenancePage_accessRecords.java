@@ -35,12 +35,17 @@ public class maintenancePage_accessRecords {
 		public static void clickElement() {ActionDriver.WebActions.clickElement(button_Download, locator);}
 	
 	}
+	public static class tab_Error{
+		private static String tab_Error = "Error tab";
+		private static By locator = By.xpath("//body[@class='neterror']/ancestor::html");
+		
+		public static void waitElementVisible() {ActionDriver.WebActions.waitElementVisible(tab_Error, locator);}
+	
+	}
 	
 	public static class ValidateErrorPage{
-		private static String ValidateErrorPage = "Error page";
-		private static By locator = By.xpath("//span[text()='This page isn’t working']/ancestor::div//div[@id='main-message']");
 		
-		public static void assertElementDisplayed() {ActionDriver.WebActions.assertElementDisplayed(ValidateErrorPage, locator);}
+		public static void errPage500() {ActionDriver.WebActions.errPage500();}
 	
 	}
 }

@@ -1,0 +1,50 @@
+[INFO ] 2024-11-08 14:40:06.783 - =================================== START TEST ===================================
+[INFO ] 2024-11-08 14:40:06.788 - Test Case report initialize for VerifyDifferentLoginOptions
+[INFO ] 2024-11-08 14:40:40.532 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-11-08 14:40:40.592 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-11-08 14:40:40.620 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-11-08 14:40:40.698 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-11-08 14:40:40.760 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-11-08 14:40:42.384 - PASSED - Step 6 - Orange HRM Homepage Logo is displayed.
+[INFO ] 2024-11-08 14:40:42.437 - PASSED - Step 7 - User account dropdown is visible.
+[INFO ] 2024-11-08 14:40:42.491 - PASSED - Step 8 - User account dropdown was clicked.
+[INFO ] 2024-11-08 14:40:43.066 - PASSED - Step 9 - User account logout is visible.
+[INFO ] 2024-11-08 14:40:43.844 - PASSED - Step 10 - User account logout was clicked.
+[INFO ] 2024-11-08 14:40:44.197 - PASSED - Step 11 - Login Title is displayed.
+[INFO ] 2024-11-08 14:40:46.223 - PASSED - Step 12 - username is displayed.
+[INFO ] 2024-11-08 14:40:46.261 - PASSED - Step 13 - username is populated with efrgfgbfv6543!.
+[INFO ] 2024-11-08 14:40:46.277 - PASSED - Step 14 - password is displayed.
+[INFO ] 2024-11-08 14:40:46.324 - PASSED - Step 15 - password is populated with admin123.
+[INFO ] 2024-11-08 14:40:46.360 - PASSED - Step 16 - loginButton was clicked.
+[INFO ] 2024-11-08 14:40:47.433 - PASSED - Step 17 - Invalid credentials mesage is visible.
+[INFO ] 2024-11-08 14:40:47.451 - PASSED - Step 18 - Invalid credentials mesage is displayed.
+[INFO ] 2024-11-08 14:40:49.473 - PASSED - Step 19 - username is displayed.
+[INFO ] 2024-11-08 14:40:49.510 - PASSED - Step 20 - username is populated with Admin.
+[INFO ] 2024-11-08 14:40:49.536 - PASSED - Step 21 - password is displayed.
+[INFO ] 2024-11-08 14:40:49.594 - PASSED - Step 22 - password is populated with admin123@*+..
+[INFO ] 2024-11-08 14:40:49.627 - PASSED - Step 23 - loginButton was clicked.
+[INFO ] 2024-11-08 14:40:50.992 - PASSED - Step 24 - Invalid credentials mesage is visible.
+[INFO ] 2024-11-08 14:40:51.007 - PASSED - Step 25 - Invalid credentials mesage is displayed.
+[INFO ] 2024-11-08 14:40:53.038 - PASSED - Step 26 - username is displayed.
+[INFO ] 2024-11-08 14:40:53.077 - PASSED - Step 27 - username is populated with efrgfgbfv6543!.
+[INFO ] 2024-11-08 14:40:53.092 - PASSED - Step 28 - password is displayed.
+[INFO ] 2024-11-08 14:40:53.143 - PASSED - Step 29 - password is populated with admin123@*+..
+[INFO ] 2024-11-08 14:40:53.872 - PASSED - Step 30 - loginButton was clicked.
+[INFO ] 2024-11-08 14:40:54.239 - PASSED - Step 31 - Invalid credentials mesage is visible.
+[INFO ] 2024-11-08 14:40:54.254 - PASSED - Step 32 - Invalid credentials mesage is displayed.
+[INFO ] 2024-11-08 14:40:54.255 - =================================== END TEST ===================================
+[INFO ] 2024-11-08 14:45:19.044 - =================================== START TEST ===================================
+[INFO ] 2024-11-08 14:45:19.044 - Test Case report initialize for VerifyDifferentLoginOptions
+[INFO ] 2024-11-08 14:45:52.150 - PASSED - Step 1 - username is displayed.
+[INFO ] 2024-11-08 14:45:52.201 - PASSED - Step 2 - username is populated with Admin.
+[INFO ] 2024-11-08 14:45:52.229 - PASSED - Step 3 - password is displayed.
+[INFO ] 2024-11-08 14:45:52.316 - PASSED - Step 4 - password is populated with admin123.
+[INFO ] 2024-11-08 14:45:53.766 - PASSED - Step 5 - loginButton was clicked.
+[INFO ] 2024-11-08 14:45:54.192 - PASSED - Step 6 - tab_Buzz is visible.
+[INFO ] 2024-11-08 14:45:54.863 - PASSED - Step 7 - tab_Buzz was clicked.
+[INFO ] 2024-11-08 14:45:55.356 - PASSED - Step 8 - field post is visible.
+[INFO ] 2024-11-08 14:45:58.548 - PASSED - Step 9 - field post was clicked.
+[INFO ] 2024-11-08 14:45:58.620 - PASSED - Step 10 - field post is populated with Insert post test description for validation.
+[INFO ] 2024-11-08 14:46:00.684 - PASSED - Step 11 - post button was clicked.
+[INFO ] 2024-11-08 14:46:05.718 - PASSED - Step 12 - post button is displayed.
+[INFO ] 2024-11-08 14:46:05.719 - =================================== END TEST ===================================

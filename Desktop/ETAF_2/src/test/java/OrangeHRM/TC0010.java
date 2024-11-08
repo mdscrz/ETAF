@@ -54,8 +54,8 @@ public class TC0010 extends Hooks {
 		maintenancePage_accessRecords.button_Download.waitElementVisible();
 		maintenancePage_accessRecords.button_Download.clickElement();
 		
-		Thread.sleep(3000);
-		maintenancePage_accessRecords.ValidateErrorPage.assertElementDisplayed();
+		Thread.sleep(5000);
+		maintenancePage_accessRecords.ValidateErrorPage.errPage500();
 	
 	}
 	

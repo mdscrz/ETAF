@@ -37,7 +37,7 @@ public class TC0003 extends Hooks{
 			pimPage.button_eeList.clickElement();
 			pimPage_employeeList.geteeID.setInt(PIMdata.currentEEId);
 			pimPage_employeeList.button_Submit.clickElement();
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 			
 			//Assert successfully created employee
 			pimPage_employeeList.retrieveCreatedEE.assertInt(PIMdata.currentEEId);

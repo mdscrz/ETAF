@@ -1,24 +1,235 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-07T08:00:42Z" name="Default suite" finished-at="2024-11-07T08:01:54Z" duration-ms="72234">
+  <suite started-at="2024-11-08T14:37:30 CST" name="Suite" finished-at="2024-11-08T14:46:06 CST" duration-ms="515349">
     <groups>
+      <group name="">
+        <method signature="TC0006.VerifyDifferentLoginOptions()[pri:0, instance:OrangeHRM.TC0006@31f9b85e]" name="VerifyDifferentLoginOptions" class="OrangeHRM.TC0006"/>
+        <method signature="TC0007.SearchEEinDirectory()[pri:0, instance:OrangeHRM.TC0007@762ef0ea]" name="SearchEEinDirectory" class="OrangeHRM.TC0007"/>
+      </group> <!--  -->
       <group name="Regression">
-        <method signature="TC0010.VerifyUnsuccesfulDownloadofEE()[pri:0, instance:OrangeHRM.TC0010@54e7df6a]" name="VerifyUnsuccesfulDownloadofEE" class="OrangeHRM.TC0010"/>
+        <method signature="TC0001.VerifyDefaultSetupOnInitialLoad()[pri:0, instance:OrangeHRM.TC0001@ed7f8b4]" name="VerifyDefaultSetupOnInitialLoad" class="OrangeHRM.TC0001"/>
+        <method signature="TC0002.VerifysuccessfulAddofClaim()[pri:0, instance:OrangeHRM.TC0002@68e5eea7]" name="VerifysuccessfulAddofClaim" class="OrangeHRM.TC0002"/>
+        <method signature="TC0003.VerifysuccessfulAddofEE()[pri:0, instance:OrangeHRM.TC0003@63070bab]" name="VerifysuccessfulAddofEE" class="OrangeHRM.TC0003"/>
+        <method signature="TC0004.VerifyDifferentLoginOptions()[pri:0, instance:OrangeHRM.TC0004@38e79ae3]" name="VerifyDifferentLoginOptions" class="OrangeHRM.TC0004"/>
+        <method signature="TC0005.VerifyAddedAdminRoleOnEE()[pri:0, instance:OrangeHRM.TC0005@6f45df59]" name="VerifyAddedAdminRoleOnEE" class="OrangeHRM.TC0005"/>
+        <method signature="TC0008.VerifyAddEEViaDataImport()[pri:0, instance:OrangeHRM.TC0008@2d2ffcb7]" name="VerifyAddEEViaDataImport" class="OrangeHRM.TC0008"/>
+        <method signature="TC0009.VerifyLeftMenuOptions()[pri:0, instance:OrangeHRM.TC0009@291b4bf5]" name="VerifyLeftMenuOptions" class="OrangeHRM.TC0009"/>
+        <method signature="TC0010.VerifyUnsuccesfulDownloadofEE()[pri:0, instance:OrangeHRM.TC0010@58ea606c]" name="VerifyUnsuccesfulDownloadofEE" class="OrangeHRM.TC0010"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-11-07T08:00:42Z" name="Default test" finished-at="2024-11-07T08:01:54Z" duration-ms="72234">
-      <class name="OrangeHRM.TC0010">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:OrangeHRM.TC0010@54e7df6a]" started-at="2024-11-07T16:00:40Z" name="beforeSuite" finished-at="2024-11-07T16:00:42Z" duration-ms="1576" status="PASS">
+    <test started-at="2024-11-08T14:37:30 CST" name="Test" finished-at="2024-11-08T14:46:06 CST" duration-ms="515349">
+      <class name="OrangeHRM.TC0005">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:OrangeHRM.TC0005@6f45df59]" started-at="2024-11-08T14:39:07 CST" name="beforeMethod" finished-at="2024-11-08T14:39:09 CST" duration-ms="1565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void OrangeHRM.TC0005.VerifyAddedAdminRoleOnEE() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyAddedAdminRoleOnEE()[pri:0, instance:OrangeHRM.TC0005@6f45df59]" started-at="2024-11-08T14:39:09 CST" name="VerifyAddedAdminRoleOnEE" description="Verify successful add of admin role on an existing employee" finished-at="2024-11-08T14:40:05 CST" duration-ms="56582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddedAdminRoleOnEE -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:OrangeHRM.TC0005@6f45df59]" started-at="2024-11-08T14:40:05 CST" name="afterMethod" finished-at="2024-11-08T14:40:05 CST" duration-ms="237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyAddedAdminRoleOnEE status=SUCCESS method=TC0005.VerifyAddedAdminRoleOnEE()[pri:0, instance:OrangeHRM.TC0005@6f45df59] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- OrangeHRM.TC0005 -->
+      <class name="OrangeHRM.TC0004">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:OrangeHRM.TC0004@38e79ae3]" started-at="2024-11-08T14:40:05 CST" name="beforeMethod" finished-at="2024-11-08T14:40:06 CST" duration-ms="956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void OrangeHRM.TC0004.VerifyDifferentLoginOptions() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyDifferentLoginOptions()[pri:0, instance:OrangeHRM.TC0004@38e79ae3]" started-at="2024-11-08T14:40:06 CST" name="VerifyDifferentLoginOptions" description="Verify different scenarios of data login to Orange HRM" finished-at="2024-11-08T14:40:54 CST" duration-ms="47466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDifferentLoginOptions -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:OrangeHRM.TC0004@38e79ae3]" started-at="2024-11-08T14:40:54 CST" name="afterMethod" finished-at="2024-11-08T14:40:54 CST" duration-ms="191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyDifferentLoginOptions status=SUCCESS method=TC0004.VerifyDifferentLoginOptions()[pri:0, instance:OrangeHRM.TC0004@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- OrangeHRM.TC0004 -->
+      <class name="OrangeHRM.TC0007">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:OrangeHRM.TC0007@762ef0ea]" started-at="2024-11-08T14:44:26 CST" name="beforeMethod" finished-at="2024-11-08T14:44:27 CST" duration-ms="960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void OrangeHRM.TC0007.SearchEEinDirectory() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="SearchEEinDirectory()[pri:0, instance:OrangeHRM.TC0007@762ef0ea]" started-at="2024-11-08T14:44:27 CST" name="SearchEEinDirectory" description="Search employee name in Directory " finished-at="2024-11-08T14:45:17 CST" duration-ms="50600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchEEinDirectory -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:OrangeHRM.TC0007@762ef0ea]" started-at="2024-11-08T14:45:17 CST" name="afterMethod" finished-at="2024-11-08T14:45:18 CST" duration-ms="178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchEEinDirectory status=SUCCESS method=TC0007.SearchEEinDirectory()[pri:0, instance:OrangeHRM.TC0007@762ef0ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- OrangeHRM.TC0007 -->
+      <class name="OrangeHRM.TC0006">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:OrangeHRM.TC0006@31f9b85e]" started-at="2024-11-08T14:45:18 CST" name="beforeMethod" finished-at="2024-11-08T14:45:19 CST" duration-ms="913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void OrangeHRM.TC0006.VerifyDifferentLoginOptions() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyDifferentLoginOptions()[pri:0, instance:OrangeHRM.TC0006@31f9b85e]" started-at="2024-11-08T14:45:19 CST" name="VerifyDifferentLoginOptions" description="Verify successful post in Buzz" finished-at="2024-11-08T14:46:05 CST" duration-ms="46674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDifferentLoginOptions -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:OrangeHRM.TC0006@31f9b85e]" started-at="2024-11-08T14:46:05 CST" name="afterMethod" finished-at="2024-11-08T14:46:05 CST" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyDifferentLoginOptions status=SUCCESS method=TC0006.VerifyDifferentLoginOptions()[pri:0, instance:OrangeHRM.TC0006@31f9b85e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- OrangeHRM.TC0006 -->
+      <class name="OrangeHRM.TC0001">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:OrangeHRM.TC0001@ed7f8b4]" started-at="2024-11-08T14:37:30 CST" name="beforeSuite" finished-at="2024-11-08T14:37:30 CST" duration-ms="791" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:OrangeHRM.TC0010@54e7df6a]" started-at="2024-11-07T16:00:42Z" name="beforeTest" finished-at="2024-11-07T16:00:42Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:OrangeHRM.TC0001@ed7f8b4]" started-at="2024-11-08T14:37:30 CST" name="beforeTest" finished-at="2024-11-08T14:37:30 CST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:OrangeHRM.TC0010@54e7df6a]" started-at="2024-11-07T16:00:42Z" name="beforeMethod" finished-at="2024-11-07T16:00:45Z" duration-ms="3093" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:OrangeHRM.TC0001@ed7f8b4]" started-at="2024-11-08T14:37:30 CST" name="beforeMethod" finished-at="2024-11-08T14:37:32 CST" duration-ms="1923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void OrangeHRM.TC0001.VerifyDefaultSetupOnInitialLoad()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyDefaultSetupOnInitialLoad()[pri:0, instance:OrangeHRM.TC0001@ed7f8b4]" started-at="2024-11-08T14:37:32 CST" name="VerifyDefaultSetupOnInitialLoad" description="Verify Default setup upon initial load" finished-at="2024-11-08T14:38:08 CST" duration-ms="35923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDefaultSetupOnInitialLoad -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:OrangeHRM.TC0001@ed7f8b4]" started-at="2024-11-08T14:38:08 CST" name="afterMethod" finished-at="2024-11-08T14:38:09 CST" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyDefaultSetupOnInitialLoad status=SUCCESS method=TC0001.VerifyDefaultSetupOnInitialLoad()[pri:0, instance:OrangeHRM.TC0001@ed7f8b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:OrangeHRM.TC0001@ed7f8b4]" started-at="2024-11-08T14:46:05 CST" name="afterTest" finished-at="2024-11-08T14:46:06 CST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- OrangeHRM.TC0001 -->
+      <class name="OrangeHRM.TC0003">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:OrangeHRM.TC0003@63070bab]" started-at="2024-11-08T14:40:54 CST" name="beforeMethod" finished-at="2024-11-08T14:40:55 CST" duration-ms="944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void OrangeHRM.TC0003.VerifysuccessfulAddofEE() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifysuccessfulAddofEE()[pri:0, instance:OrangeHRM.TC0003@63070bab]" started-at="2024-11-08T14:40:55 CST" name="VerifysuccessfulAddofEE" description="Verify successful add employee" finished-at="2024-11-08T14:42:16 CST" duration-ms="81093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifysuccessfulAddofEE -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:OrangeHRM.TC0003@63070bab]" started-at="2024-11-08T14:42:16 CST" name="afterMethod" finished-at="2024-11-08T14:42:16 CST" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifysuccessfulAddofEE status=SUCCESS method=TC0003.VerifysuccessfulAddofEE()[pri:0, instance:OrangeHRM.TC0003@63070bab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- OrangeHRM.TC0003 -->
+      <class name="OrangeHRM.TC0002">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:OrangeHRM.TC0002@68e5eea7]" started-at="2024-11-08T14:42:16 CST" name="beforeMethod" finished-at="2024-11-08T14:42:17 CST" duration-ms="942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void OrangeHRM.TC0002.VerifysuccessfulAddofClaim() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifysuccessfulAddofClaim()[pri:0, instance:OrangeHRM.TC0002@68e5eea7]" started-at="2024-11-08T14:42:17 CST" name="VerifysuccessfulAddofClaim" description="Verify successful add employee claims" finished-at="2024-11-08T14:43:09 CST" duration-ms="51452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifysuccessfulAddofClaim -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:OrangeHRM.TC0002@68e5eea7]" started-at="2024-11-08T14:43:09 CST" name="afterMethod" finished-at="2024-11-08T14:43:09 CST" duration-ms="251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifysuccessfulAddofClaim status=SUCCESS method=TC0002.VerifysuccessfulAddofClaim()[pri:0, instance:OrangeHRM.TC0002@68e5eea7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- OrangeHRM.TC0002 -->
+      <class name="OrangeHRM.TC0010">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:OrangeHRM.TC0010@58ea606c]" started-at="2024-11-08T14:38:09 CST" name="beforeMethod" finished-at="2024-11-08T14:38:09 CST" duration-ms="952" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,97 +240,78 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="VerifyUnsuccesfulDownloadofEE()[pri:0, instance:OrangeHRM.TC0010@54e7df6a]" started-at="2024-11-07T16:00:45Z" name="VerifyUnsuccesfulDownloadofEE" description="Verify unsuccessful Download of EE details" finished-at="2024-11-07T16:01:50Z" duration-ms="65124" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='This page isn’t working']/ancestor::div//div[@id='main-message']"}
-  (Session info: chrome=130.0.6723.71)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dec297059c4a59c4585c3372adad771e, findElement {using=xpath, value=//span[text()='This page isn’t working']/ancestor::div//div[@id='main-message']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.71, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58804}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58804/devtoo..., se:cdpVersion: 130.0.6723.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: dec297059c4a59c4585c3372adad771e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='This page isn’t working']/ancestor::div//div[@id='main-message']"}
-  (Session info: chrome=130.0.6723.71)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dec297059c4a59c4585c3372adad771e, findElement {using=xpath, value=//span[text()='This page isn’t working']/ancestor::div//div[@id='main-message']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.71, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MARY~1.CRU\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58804}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58804/devtoo..., se:cdpVersion: 130.0.6723.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: dec297059c4a59c4585c3372adad771e
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at core.ActionDriver.getElement(ActionDriver.java:43)
-	at core.ActionDriver.access$0(ActionDriver.java:42)
-	at core.ActionDriver$WebActions.assertElementDisplayed(ActionDriver.java:89)
-	at pages.maintenancePage_accessRecords$ValidateErrorPage.assertElementDisplayed(maintenancePage_accessRecords.java:43)
-	at OrangeHRM.TC0010.VerifyUnsuccesfulDownloadofEE(TC0010.java:58)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="VerifyUnsuccesfulDownloadofEE()[pri:0, instance:OrangeHRM.TC0010@58ea606c]" started-at="2024-11-08T14:38:09 CST" name="VerifyUnsuccesfulDownloadofEE" description="Verify unsuccessful Download of EE details" finished-at="2024-11-08T14:39:07 CST" duration-ms="57258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyUnsuccesfulDownloadofEE -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:OrangeHRM.TC0010@54e7df6a]" started-at="2024-11-07T16:01:50Z" name="afterMethod" finished-at="2024-11-07T16:01:53Z" duration-ms="3576" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:OrangeHRM.TC0010@58ea606c]" started-at="2024-11-08T14:39:07 CST" name="afterMethod" finished-at="2024-11-08T14:39:07 CST" duration-ms="202" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyUnsuccesfulDownloadofEE status=FAILURE method=TC0010.VerifyUnsuccesfulDownloadofEE()[pri:0, instance:OrangeHRM.TC0010@54e7df6a] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyUnsuccesfulDownloadofEE status=SUCCESS method=TC0010.VerifyUnsuccesfulDownloadofEE()[pri:0, instance:OrangeHRM.TC0010@58ea606c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:OrangeHRM.TC0010@54e7df6a]" started-at="2024-11-07T16:01:53Z" name="afterTest" finished-at="2024-11-07T16:01:54Z" duration-ms="405" status="PASS">
+      </class> <!-- OrangeHRM.TC0010 -->
+      <class name="OrangeHRM.TC0009">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:OrangeHRM.TC0009@291b4bf5]" started-at="2024-11-08T14:43:09 CST" name="beforeMethod" finished-at="2024-11-08T14:43:10 CST" duration-ms="889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void OrangeHRM.TC0009.VerifyLeftMenuOptions()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- OrangeHRM.TC0010 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyLeftMenuOptions()[pri:0, instance:OrangeHRM.TC0009@291b4bf5]" started-at="2024-11-08T14:43:10 CST" name="VerifyLeftMenuOptions" description="verify all tabs in homepage" finished-at="2024-11-08T14:43:45 CST" duration-ms="34970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLeftMenuOptions -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:OrangeHRM.TC0009@291b4bf5]" started-at="2024-11-08T14:43:45 CST" name="afterMethod" finished-at="2024-11-08T14:43:45 CST" duration-ms="196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLeftMenuOptions status=SUCCESS method=TC0009.VerifyLeftMenuOptions()[pri:0, instance:OrangeHRM.TC0009@291b4bf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- OrangeHRM.TC0009 -->
+      <class name="OrangeHRM.TC0008">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:OrangeHRM.TC0008@2d2ffcb7]" started-at="2024-11-08T14:43:45 CST" name="beforeMethod" finished-at="2024-11-08T14:43:46 CST" duration-ms="895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void OrangeHRM.TC0008.VerifyAddEEViaDataImport() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyAddEEViaDataImport()[pri:0, instance:OrangeHRM.TC0008@2d2ffcb7]" started-at="2024-11-08T14:43:46 CST" name="VerifyAddEEViaDataImport" description="Add employee via data import" finished-at="2024-11-08T14:44:26 CST" duration-ms="39861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddEEViaDataImport -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:OrangeHRM.TC0008@2d2ffcb7]" started-at="2024-11-08T14:44:26 CST" name="afterMethod" finished-at="2024-11-08T14:44:26 CST" duration-ms="246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyAddEEViaDataImport status=SUCCESS method=TC0008.VerifyAddEEViaDataImport()[pri:0, instance:OrangeHRM.TC0008@2d2ffcb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- OrangeHRM.TC0008 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

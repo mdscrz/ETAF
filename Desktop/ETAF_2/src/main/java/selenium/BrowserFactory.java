@@ -55,5 +55,8 @@ public class BrowserFactory {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(ConfigReader.getIntProps("implicitlyWait")));
 
 		return driver;
+	
+
 	}
+	
 }

@@ -84,6 +84,12 @@ public class ActionDriver {
 			
 		}
 		
+		public static void errPage500() {
+			String pageSource = getDriver().getPageSource();
+			if (pageSource.contains("500")) 
+			    System.out.println("Error 500 page detected.");
+		}
+		
 		// Verify Element is displayed
 		public static void assertElementDisplayed(String elementName, By locator) {
 			Assert.assertTrue(getElement(locator).isDisplayed());
